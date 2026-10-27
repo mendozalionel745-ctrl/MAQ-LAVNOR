@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAQLavnor | Alquiler de Maquinaria Pesada para Minería</title>
+  <meta name="description" content="MAQLavnor: alquiler de maquinaria pesada, torres de iluminación LED, grupos electrógenos, compresoras y unidades livianas para la industria minera en el Perú." />
+  <link rel="icon" type="image/jpeg" href="assets/maqlogo.jpg" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            carbon: { 950: '#0b0c0e', 900: '#121417', 800: '#1a1d21', 700: '#24282d', 600: '#2f343a' },
+            safety: { 300: '#ffe066', 400: '#ffd21f', 500: '#f5b800', 600: '#d99e00' }
+          },
+          fontFamily: {
+            display: ['Oswald', 'sans-serif'],
+            sans: ['Inter', 'sans-serif']
+          },
+          keyframes: {
+            fadeUp: { '0%': { opacity: 0, transform: 'translateY(24px)' }, '100%': { opacity: 1, transform: 'translateY(0)' } },
+            slowSpin: { to: { transform: 'rotate(360deg)' } }
+          },
+          animation: {
+            fadeUp: 'fadeUp .8s ease-out both',
+            slowSpin: 'slowSpin 60s linear infinite'
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <style>
+    .hazard-stripe {
+      background-image: repeating-linear-gradient(-45deg, #f5b800 0 18px, #121417 18px 36px);
+    }
+    .grid-pattern {
+      background-image:
+        linear-gradient(rgba(245, 184, 0, .07) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(245, 184, 0, .07) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease-out, transform .7s ease-out; }
+    .reveal.is-visible { opacity: 1; transform: none; }
+  </style>
+</head>
+
+<body class="bg-carbon-950 font-sans text-gray-200 antialiased selection:bg-safety-500 selection:text-carbon-950">
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="top" class="fixed inset-x-0 top-0 z-50 border-b border-white/5 bg-carbon-950/85 backdrop-blur-md">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8" aria-label="Navegación principal">
+      <a href="#top" class="flex items-center gap-3">
+        <img src="assets/maqlogo.jpg" alt="Logo MAQ Lavnor Perú" class="h-11 w-11 rounded-full bg-white object-contain ring-2 ring-safety-500/60" />
+        <span class="font-display text-xl font-bold tracking-wide text-white">MAQ<span class="text-safety-500">LAVNOR</span></span>
+      </a>
+
+      <ul class="hidden items-center gap-8 text-sm font-medium md:flex">
+        <li><a href="#equipos" class="transition hover:text-safety-400">Equipos</a></li>
+        <li><a href="#destacados" class="transition hover:text-safety-400">Destacados</a></li>
+        <li><a href="#soporte" class="transition hover:text-safety-400">Soporte Técnico</a></li>
+        <li>
+          <a href="#contacto" class="rounded-md bg-safety-500 px-5 py-2.5 font-semibold text-carbon-950 shadow-lg shadow-safety-500/20 transition hover:-translate-y-0.5 hover:bg-safety-400">
+            Cotizar
+          </a>
+        </li>
+      </ul>
+
+      <button id="menuBtn" class="rounded-md p-2 text-2xl text-white transition hover:text-safety-400 md:hidden" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <div id="mobileMenu" class="hidden border-t border-white/5 bg-carbon-900 md:hidden">
+      <ul class="flex flex-col gap-1 px-4 py-4 text-base font-medium">
+        <li><a href="#equipos" class="block rounded px-3 py-2 transition hover:bg-carbon-800 hover:text-safety-400">Equipos</a></li>
+        <li><a href="#destacados" class="block rounded px-3 py-2 transition hover:bg-carbon-800 hover:text-safety-400">Destacados</a></li>
+        <li><a href="#soporte" class="block rounded px-3 py-2 transition hover:bg-carbon-800 hover:text-safety-400">Soporte Técnico</a></li>
+        <li><a href="#contacto" class="mt-2 block rounded bg-safety-500 px-3 py-2 text-center font-semibold text-carbon-950">Solicitar Cotización</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="relative overflow-hidden pt-24">
+      <div class="grid-pattern absolute inset-0"></div>
+      <div class="absolute -right-40 top-1/2 h-[36rem] w-[36rem] -translate-y-1/2 rounded-full bg-safety-500/10 blur-3xl"></div>
+
+      <div class="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-16 sm:px-6 md:py-24 lg:grid-cols-2 lg:px-8">
+        <div class="animate-fadeUp">
+          <span class="inline-flex items-center gap-2 rounded-full border border-safety-500/40 bg-safety-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-safety-400">
+            <i class="fa-solid fa-helmet-safety"></i> Especialistas en minería
+          </span>
+          <h1 class="mt-6 font-display text-4xl font-bold uppercase leading-tight text-white sm:text-5xl lg:text-6xl">
+            Soluciones Integrales en
+            <span class="text-safety-500">Alquiler de Maquinaria</span>
+            para Minería
+          </h1>
+          <p class="mt-6 max-w-xl text-lg leading-relaxed text-gray-400">
+            En <strong class="text-white">MAQLavnor</strong> proveemos equipos de alto rendimiento, mantenidos bajo estrictos estándares,
+            para garantizar la <strong class="text-safety-400">continuidad operativa</strong> de tu proyecto minero las 24 horas.
+          </p>
+
+          <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+            <a href="#contacto" class="group inline-flex items-center justify-center gap-3 rounded-md bg-safety-500 px-8 py-4 font-semibold uppercase tracking-wide text-carbon-950 shadow-xl shadow-safety-500/25 transition duration-300 hover:-translate-y-1 hover:bg-safety-400">
+              Solicitar Cotización
+              <i class="fa-solid fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
+            </a>
+            <a href="#equipos" class="inline-flex items-center justify-center gap-3 rounded-md border border-white/20 px-8 py-4 font-semibold uppercase tracking-wide text-white transition duration-300 hover:border-safety-500 hover:text-safety-400">
+              Ver Equipos
+            </a>
+          </div>
+
+          <dl class="mt-12 grid grid-cols-3 gap-4 border-t border-white/10 pt-8">
+            <div>
+              <dt class="text-xs uppercase tracking-wider text-gray-500">Disponibilidad</dt>
+              <dd class="font-display text-3xl font-bold text-white">24/7</dd>
+            </div>
+            <div>
+              <dt class="text-xs uppercase tracking-wider text-gray-500">Divisiones</dt>
+              <dd class="font-display text-3xl font-bold text-white">6</dd>
+            </div>
+            <div>
+              <dt class="text-xs uppercase tracking-wider text-gray-500">Soporte</dt>
+              <dd class="font-display text-3xl font-bold text-white">En campo</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="relative mx-auto hidden w-full max-w-md animate-fadeUp [animation-delay:.2s] lg:block">
+          <div class="absolute inset-0 animate-slowSpin rounded-full border-2 border-dashed border-safety-500/30"></div>
+          <div class="relative m-8 rounded-full bg-white p-6 shadow-2xl shadow-safety-500/20">
+            <img src="assets/maqlogo.jpg" alt="MAQ Lavnor Perú" class="w-full rounded-full" />
+          </div>
+        </div>
+      </div>
+
+      <div class="hazard-stripe h-3 w-full"></div>
+    </section>
+
+    <!-- ===================== CATEGORÍAS ===================== -->
+    <section id="equipos" class="bg-carbon-900 py-20 md:py-28">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header class="reveal mx-auto max-w-2xl text-center">
+          <p class="text-sm font-semibold uppercase tracking-widest text-safety-500">Nuestra Flota</p>
+          <h2 class="mt-3 font-display text-3xl font-bold uppercase text-white sm:text-4xl">Nuestras Categorías de Equipos</h2>
+          <p class="mt-4 text-gray-400">Seis divisiones especializadas para cubrir cada frente de tu operación minera.</p>
+        </header>
+
+        <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <!-- Card -->
+          <article class="reveal group relative overflow-hidden rounded-xl border border-white/5 bg-carbon-800 p-8 transition duration-300 hover:-translate-y-2 hover:border-safety-500/60 hover:shadow-2xl hover:shadow-safety-500/10">
+            <span class="absolute right-6 top-6 font-display text-5xl font-bold text-white/5 transition group-hover:text-safety-500/20">01</span>
+            <div class="flex h-14 w-14 items-center justify-center rounded-lg bg-safety-500/10 text-2xl text-safety-500 transition duration-300 group-hover:scale-110 group-hover:bg-safety-500 group-hover:text-carbon-950">
+              <i class="fa-solid fa-tractor"></i>
+            </div>
+            <h3 class="mt-6 font-display text-xl font-semibold uppercase text-white">Movimiento de Tierras</h3>
+            <ul class="mt-4 space-y-2 text-sm text-gray-400">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-500"></i> Minicargadores</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-500"></i> Rodillos Tándem</li>
+            </ul>
+            <div class="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-safety-500 transition-transform duration-500 group-hover:scale-x-100"></div>
+          </article>
+
+          <article class="reveal group relative overflow-hidden rounded-xl border border-white/5 bg-carbon-800 p-8 transition duration-300 hover:-translate-y-2 hover:border-safety-500/60 hover:shadow-2xl hover:shadow-safety-500/10">
+            <span class="absolute right-6 top-6 font-display text-5xl font-bold text-white/5 transition group-hover:text-safety-500/20">02</span>
+            <div class="flex h-14 w-14 items-center justify-center rounded-lg bg-safety-500/10 text-2xl text-safety-500 transition duration-300 group-hover:scale-110 group-hover:bg-safety-500 group-hover:text-carbon-950">
+              <i class="fa-solid fa-tower-observation"></i>
+            </div>
+            <h3 class="mt-6 font-display text-xl font-semibold uppercase text-white">Equipos Auxiliares</h3>
+            <ul class="mt-4 space-y-2 text-sm text-gray-400">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-500"></i> Torres de Iluminación LED</li>
+            </ul>
+            <div class="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-safety-500 transition-transform duration-500 group-hover:scale-x-100"></div>
+          </article>
+
+          <article class="reveal group relative overflow-hidden rounded-xl border border-white/5 bg-carbon-800 p-8 transition duration-300 hover:-translate-y-2 hover:border-safety-500/60 hover:shadow-2xl hover:shadow-safety-500/10">
+            <span class="absolute right-6 top-6 font-display text-5xl font-bold text-white/5 transition group-hover:text-safety-500/20">03</span>
+            <div class="flex h-14 w-14 items-center justify-center rounded-lg bg-safety-500/10 text-2xl text-safety-500 transition duration-300 group-hover:scale-110 group-hover:bg-safety-500 group-hover:text-carbon-950">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <h3 class="mt-6 font-display text-xl font-semibold uppercase text-white">Generación de Energía</h3>
+            <ul class="mt-4 space-y-2 text-sm text-gray-400">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-500"></i> Grupos Electrógenos</li>
+            </ul>
+            <div class="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-safety-500 transition-transform duration-500 group-hover:scale-x-100"></div>
+          </article>
+
+          <article class="reveal group relative overflow-hidden rounded-xl border border-white/5 bg-carbon-800 p-8 transition duration-300 hover:-translate-y-2 hover:border-safety-500/60 hover:shadow-2xl hover:shadow-safety-500/10">
+            <span class="absolute right-6 top-6 font-display text-5xl font-bold text-white/5 transition group-hover:text-safety-500/20">04</span>
+            <div class="flex h-14 w-14 items-center justify-center rounded-lg bg-safety-500/10 text-2xl text-safety-500 transition duration-300 group-hover:scale-110 group-hover:bg-safety-500 group-hover:text-carbon-950">
+              <i class="fa-solid fa-wind"></i>
+            </div>
+            <h3 class="mt-6 font-display text-xl font-semibold uppercase text-white">Equipos de Aire</h3>
+            <ul class="mt-4 space-y-2 text-sm text-gray-400">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-500"></i> Compresoras</li>
+            </ul>
+            <div class="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-safety-500 transition-transform duration-500 group-hover:scale-x-100"></div>
+          </article>
+
+          <article class="reveal group relative overflow-hidden rounded-xl border border-white/5 bg-carbon-800 p-8 transition duration-300 hover:-translate-y-2 hover:border-safety-500/60 hover:shadow-2xl hover:shadow-safety-500/10">
+            <span class="absolute right-6 top-6 font-display text-5xl font-bold text-white/5 transition group-hover:text-safety-500/20">05</span>
+            <div class="flex h-14 w-14 items-center justify-center rounded-lg bg-safety-500/10 text-2xl text-safety-500 transition duration-300 group-hover:scale-110 group-hover:bg-safety-500 group-hover:text-carbon-950">
+              <i class="fa-solid fa-hammer"></i>
+            </div>
+            <h3 class="mt-6 font-display text-xl font-semibold uppercase text-white">Complementos</h3>
+            <ul class="mt-4 space-y-2 text-sm text-gray-400">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-500"></i> Martillos Hidráulicos</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-500"></i> Martillos Neumáticos</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-500"></i> Fragmentadores</li>
+            </ul>
+            <div class="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-safety-500 transition-transform duration-500 group-hover:scale-x-100"></div>
+          </article>
+
+          <article class="reveal group relative overflow-hidden rounded-xl border border-white/5 bg-carbon-800 p-8 transition duration-300 hover:-translate-y-2 hover:border-safety-500/60 hover:shadow-2xl hover:shadow-safety-500/10">
+            <span class="absolute right-6 top-6 font-display text-5xl font-bold text-white/5 transition group-hover:text-safety-500/20">06</span>
+            <div class="flex h-14 w-14 items-center justify-center rounded-lg bg-safety-500/10 text-2xl text-safety-500 transition duration-300 group-hover:scale-110 group-hover:bg-safety-500 group-hover:text-carbon-950">
+              <i class="fa-solid fa-truck-pickup"></i>
+            </div>
+            <h3 class="mt-6 font-display text-xl font-semibold uppercase text-white">Unidades Livianas</h3>
+            <ul class="mt-4 space-y-2 text-sm text-gray-400">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-500"></i> Camionetas</li>
+            </ul>
+            <div class="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-safety-500 transition-transform duration-500 group-hover:scale-x-100"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EQUIPOS DESTACADOS ===================== -->
+    <section id="destacados" class="relative overflow-hidden py-20 md:py-28">
+      <div class="grid-pattern absolute inset-0 opacity-60"></div>
+      <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header class="reveal mx-auto max-w-2xl text-center">
+          <p class="text-sm font-semibold uppercase tracking-widest text-safety-500">Fichas Técnicas</p>
+          <h2 class="mt-3 font-display text-3xl font-bold uppercase text-white sm:text-4xl">Equipos Destacados</h2>
+          <p class="mt-4 text-gray-400">Torres de iluminación LED de última generación para turnos nocturnos seguros y productivos.</p>
+        </header>
+
+        <div class="mt-14 grid gap-8 lg:grid-cols-2">
+          <!-- PRAMAC -->
+          <article class="reveal group overflow-hidden rounded-2xl border border-white/10 bg-carbon-900 transition duration-300 hover:-translate-y-1 hover:border-safety-500/60 hover:shadow-2xl hover:shadow-safety-500/10">
+            <div class="relative flex items-center justify-between gap-4 bg-gradient-to-r from-safety-500 to-safety-400 px-6 py-6 text-carbon-950 sm:px-8">
+              <div>
+                <p class="text-xs font-bold uppercase tracking-widest opacity-70">Torre de Iluminación</p>
+                <h3 class="font-display text-2xl font-bold uppercase sm:text-3xl">PRAMAC LSW-3Y</h3>
+              </div>
+              <span class="shrink-0 rounded-md bg-carbon-950 px-3 py-1 text-xs font-bold uppercase tracking-wider text-safety-400">LED</span>
+            </div>
+
+            <div class="p-6 sm:p-8">
+              <div class="mb-8 flex items-end gap-3 border-b border-white/10 pb-6">
+                <span class="font-display text-5xl font-bold text-white sm:text-6xl">4100</span>
+                <span class="mb-2 text-lg font-semibold text-safety-400">m² iluminados</span>
+              </div>
+
+              <dl class="grid gap-4 sm:grid-cols-2">
+                <div class="flex gap-4 rounded-lg bg-carbon-800 p-4 transition group-hover:bg-carbon-700">
+                  <i class="fa-solid fa-expand mt-1 text-xl text-safety-500"></i>
+                  <div><dt class="text-xs uppercase tracking-wider text-gray-500">Área iluminada</dt><dd class="font-semibold text-white">4100 m²</dd></div>
+                </div>
+                <div class="flex gap-4 rounded-lg bg-carbon-800 p-4 transition group-hover:bg-carbon-700">
+                  <i class="fa-solid fa-lightbulb mt-1 text-xl text-safety-500"></i>
+                  <div><dt class="text-xs uppercase tracking-wider text-gray-500">Componentes</dt><dd class="font-semibold text-white">4 focos LED</dd></div>
+                </div>
+                <div class="flex gap-4 rounded-lg bg-carbon-800 p-4 transition group-hover:bg-carbon-700">
+                  <i class="fa-solid fa-gears mt-1 text-xl text-safety-500"></i>
+                  <div><dt class="text-xs uppercase tracking-wider text-gray-500">Motor y rendimiento</dt><dd class="font-semibold text-white">Motor Yanmar 2TNV70</dd></div>
+                </div>
+                <div class="flex gap-4 rounded-lg bg-carbon-800 p-4 transition group-hover:bg-carbon-700">
+                  <i class="fa-solid fa-gas-pump mt-1 text-xl text-safety-500"></i>
+                  <div><dt class="text-xs uppercase tracking-wider text-gray-500">Autonomía</dt><dd class="font-semibold text-white">200 horas gracias a su tanque de combustible</dd></div>
+                </div>
+              </dl>
+
+              <a href="#contacto" data-category="Equipos Auxiliares" class="quote-link mt-8 inline-flex items-center gap-2 font-semibold text-safety-400 transition hover:gap-3 hover:text-safety-300">
+                Cotizar este equipo <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- ATLAS COPCO -->
+          <article class="reveal group overflow-hidden rounded-2xl border border-white/10 bg-carbon-900 transition duration-300 hover:-translate-y-1 hover:border-safety-500/60 hover:shadow-2xl hover:shadow-safety-500/10">
+            <div class="relative flex items-center justify-between gap-4 bg-gradient-to-r from-safety-500 to-safety-400 px-6 py-6 text-carbon-950 sm:px-8">
+              <div>
+                <p class="text-xs font-bold uppercase tracking-widest opacity-70">Torre de Iluminación</p>
+                <h3 class="font-display text-2xl font-bold uppercase sm:text-3xl">Atlas Copco HiLight V5+</h3>
+              </div>
+              <span class="shrink-0 rounded-md bg-carbon-950 px-3 py-1 text-xs font-bold uppercase tracking-wider text-safety-400">LED</span>
+            </div>
+
+            <div class="p-6 sm:p-8">
+              <div class="mb-8 flex items-end gap-3 border-b border-white/10 pb-6">
+                <span class="font-display text-5xl font-bold text-white sm:text-6xl">5000</span>
+                <span class="mb-2 text-lg font-semibold text-safety-400">m² de cobertura</span>
+              </div>
+
+              <dl class="grid gap-4 sm:grid-cols-2">
+                <div class="flex gap-4 rounded-lg bg-carbon-800 p-4 transition group-hover:bg-carbon-700">
+                  <i class="fa-solid fa-expand mt-1 text-xl text-safety-500"></i>
+                  <div><dt class="text-xs uppercase tracking-wider text-gray-500">Área iluminada</dt><dd class="font-semibold text-white">Cobertura lumínica de 5000 m²</dd></div>
+                </div>
+                <div class="flex gap-4 rounded-lg bg-carbon-800 p-4 transition group-hover:bg-carbon-700">
+                  <i class="fa-solid fa-lightbulb mt-1 text-xl text-safety-500"></i>
+                  <div><dt class="text-xs uppercase tracking-wider text-gray-500">Iluminación</dt><dd class="font-semibold text-white">4 focos LED de 350 W</dd></div>
+                </div>
+                <div class="flex gap-4 rounded-lg bg-carbon-800 p-4 transition group-hover:bg-carbon-700">
+                  <i class="fa-solid fa-leaf mt-1 text-xl text-safety-500"></i>
+                  <div><dt class="text-xs uppercase tracking-wider text-gray-500">Eficiencia</dt><dd class="font-semibold text-white">Consumo de 0,7 l/h</dd></div>
+                </div>
+                <div class="flex gap-4 rounded-lg bg-carbon-800 p-4 transition group-hover:bg-carbon-700">
+                  <i class="fa-solid fa-shield-halved mt-1 text-xl text-safety-500"></i>
+                  <div><dt class="text-xs uppercase tracking-wider text-gray-500">Seguridad</dt><dd class="font-semibold text-white">Carrocería HardHat para protección extrema en mina</dd></div>
+                </div>
+              </dl>
+
+              <a href="#contacto" data-category="Equipos Auxiliares" class="quote-link mt-8 inline-flex items-center gap-2 font-semibold text-safety-400 transition hover:gap-3 hover:text-safety-300">
+                Cotizar este equipo <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCIA Y SOPORTE ===================== -->
+    <section id="soporte" class="bg-white py-20 text-carbon-900 md:py-28">
+      <div class="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+        <div class="reveal">
+          <p class="text-sm font-semibold uppercase tracking-widest text-safety-600">Experiencia y Soporte Técnico</p>
+          <h2 class="mt-3 font-display text-3xl font-bold uppercase sm:text-4xl">Rigor técnico donde ocurre la operación</h2>
+          <p class="mt-6 text-lg leading-relaxed text-gray-600">
+            Nuestro equipo de ingenieros y técnicos asiste a <strong class="text-carbon-900">reuniones técnicas en campo</strong> junto a
+            supervisores, áreas de seguridad y contratistas, para dimensionar la flota adecuada, planificar mantenimientos
+            y asegurar que cada equipo cumpla con los estándares de la unidad minera.
+          </p>
+
+          <ul class="mt-8 space-y-4">
+            <li class="flex gap-4">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-carbon-900 text-safety-400"><i class="fa-solid fa-people-group"></i></span>
+              <div><h3 class="font-semibold">Reuniones técnicas en sitio</h3><p class="text-sm text-gray-600">Evaluación de requerimientos directamente en el frente de trabajo.</p></div>
+            </li>
+            <li class="flex gap-4">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-carbon-900 text-safety-400"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+              <div><h3 class="font-semibold">Mantenimiento preventivo y correctivo</h3><p class="text-sm text-gray-600">Técnicos móviles para minimizar tiempos de parada.</p></div>
+            </li>
+            <li class="flex gap-4">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-carbon-900 text-safety-400"><i class="fa-solid fa-file-shield"></i></span>
+              <div><h3 class="font-semibold">Documentación y cumplimiento SSOMA</h3><p class="text-sm text-gray-600">Equipos con certificaciones, check-lists y registros al día.</p></div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Caso de operación -->
+        <article class="reveal group relative overflow-hidden rounded-2xl bg-carbon-900 p-8 text-gray-200 shadow-2xl transition duration-300 hover:-translate-y-1 hover:shadow-safety-500/20 sm:p-10">
+          <div class="hazard-stripe absolute inset-x-0 top-0 h-2"></div>
+          <span class="inline-flex items-center gap-2 rounded-full bg-safety-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-safety-400">
+            <i class="fa-solid fa-location-dot"></i> Caso de operación
+          </span>
+          <h3 class="mt-5 font-display text-2xl font-bold uppercase text-white sm:text-3xl">
+            Construcción de Presas de Relaves y Obras Complementarias
+          </h3>
+          <p class="mt-4 leading-relaxed text-gray-400">
+            Participamos en las reuniones técnicas de arranque del proyecto para definir la flota de compactación,
+            iluminación nocturna y energía temporal, alineando cada equipo con el plan de compactación por capas
+            y los controles de calidad del dique.
+          </p>
+
+          <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
+            <div class="rounded-lg border border-white/10 p-4 text-center transition group-hover:border-safety-500/40">
+              <i class="fa-solid fa-road text-2xl text-safety-500"></i>
+              <p class="mt-2 text-sm font-semibold text-white">Rodillos Tándem</p>
+              <p class="text-xs text-gray-500">Compactación de capas</p>
+            </div>
+            <div class="rounded-lg border border-white/10 p-4 text-center transition group-hover:border-safety-500/40">
+              <i class="fa-solid fa-moon text-2xl text-safety-500"></i>
+              <p class="mt-2 text-sm font-semibold text-white">Torres LED</p>
+              <p class="text-xs text-gray-500">Turno noche continuo</p>
+            </div>
+            <div class="rounded-lg border border-white/10 p-4 text-center transition group-hover:border-safety-500/40">
+              <i class="fa-solid fa-plug-circle-bolt text-2xl text-safety-500"></i>
+              <p class="mt-2 text-sm font-semibold text-white">Grupos Electrógenos</p>
+              <p class="text-xs text-gray-500">Energía en campamento</p>
+            </div>
+          </div>
+
+          <p class="mt-6 text-xs italic text-gray-500">* Caso referencial con fines ilustrativos.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== CONTACTO / FOOTER ===================== -->
+  <footer id="contacto" class="relative bg-carbon-950">
+    <div class="hazard-stripe h-3 w-full"></div>
+
+    <div class="mx-auto grid max-w-7xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-5 lg:px-8">
+      <div class="reveal lg:col-span-2">
+        <p class="text-sm font-semibold uppercase tracking-widest text-safety-500">Contacto</p>
+        <h2 class="mt-3 font-display text-3xl font-bold uppercase text-white sm:text-4xl">Solicita tu cotización</h2>
+        <p class="mt-4 text-gray-400">Cuéntanos sobre tu proyecto y un asesor técnico te responderá en menos de 24 horas.</p>
+
+        <ul class="mt-10 space-y-5 text-sm">
+          <li class="flex items-center gap-4">
+            <span class="flex h-11 w-11 items-center justify-center rounded-lg bg-carbon-800 text-safety-500"><i class="fa-solid fa-phone"></i></span>
+            <a href="tel:+51999999999" class="transition hover:text-safety-400">+51 999 999 999</a>
+          </li>
+          <li class="flex items-center gap-4">
+            <span class="flex h-11 w-11 items-center justify-center rounded-lg bg-carbon-800 text-safety-500"><i class="fa-solid fa-envelope"></i></span>
+            <a href="mailto:ventas@maqlavnor.pe" class="transition hover:text-safety-400">ventas@maqlavnor.pe</a>
+          </li>
+          <li class="flex items-center gap-4">
+            <span class="flex h-11 w-11 items-center justify-center rounded-lg bg-carbon-800 text-safety-500"><i class="fa-solid fa-location-dot"></i></span>
+            <span>Lima, Perú</span>
+          </li>
+        </ul>
+
+        <div class="mt-10 flex gap-3">
+          <a href="#" aria-label="Facebook" class="flex h-10 w-10 items-center justify-center rounded-full bg-carbon-800 transition hover:-translate-y-1 hover:bg-safety-500 hover:text-carbon-950"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn" class="flex h-10 w-10 items-center justify-center rounded-full bg-carbon-800 transition hover:-translate-y-1 hover:bg-safety-500 hover:text-carbon-950"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="WhatsApp" class="flex h-10 w-10 items-center justify-center rounded-full bg-carbon-800 transition hover:-translate-y-1 hover:bg-safety-500 hover:text-carbon-950"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <form id="quoteForm" class="reveal rounded-2xl border border-white/10 bg-carbon-900 p-6 shadow-2xl sm:p-10 lg:col-span-3" novalidate>
+        <div class="grid gap-6 sm:grid-cols-2">
+          <div class="sm:col-span-2">
+            <label for="empresa" class="mb-2 block text-sm font-medium text-gray-300">Nombre de la Empresa <span class="text-safety-500">*</span></label>
+            <input id="empresa" name="empresa" type="text" required autocomplete="organization" placeholder="Minera Ejemplo S.A.C."
+              class="w-full rounded-lg border border-white/10 bg-carbon-800 px-4 py-3 text-white placeholder-gray-500 transition focus:border-safety-500 focus:outline-none focus:ring-2 focus:ring-safety-500/30" />
+          </div>
+
+          <div>
+            <label for="ruc" class="mb-2 block text-sm font-medium text-gray-300">RUC <span class="text-safety-500">*</span></label>
+            <input id="ruc" name="ruc" type="text" inputmode="numeric" required maxlength="11" pattern="(10|15|17|20)[0-9]{9}" placeholder="20XXXXXXXXX"
+              class="w-full rounded-lg border border-white/10 bg-carbon-800 px-4 py-3 text-white placeholder-gray-500 transition focus:border-safety-500 focus:outline-none focus:ring-2 focus:ring-safety-500/30" />
+            <p class="field-error mt-1 hidden text-xs text-red-400">Ingresa un RUC válido de 11 dígitos.</p>
+          </div>
+
+          <div>
+            <label for="correo" class="mb-2 block text-sm font-medium text-gray-300">Correo <span class="text-safety-500">*</span></label>
+            <input id="correo" name="correo" type="email" required autocomplete="email" placeholder="contacto@empresa.com"
+              class="w-full rounded-lg border border-white/10 bg-carbon-800 px-4 py-3 text-white placeholder-gray-500 transition focus:border-safety-500 focus:outline-none focus:ring-2 focus:ring-safety-500/30" />
+            <p class="field-error mt-1 hidden text-xs text-red-400">Ingresa un correo válido.</p>
+          </div>
+
+          <div class="sm:col-span-2">
+            <label for="categoria" class="mb-2 block text-sm font-medium text-gray-300">Categoría de Interés <span class="text-safety-500">*</span></label>
+            <select id="categoria" name="categoria" required
+              class="w-full cursor-pointer rounded-lg border border-white/10 bg-carbon-800 px-4 py-3 text-white transition focus:border-safety-500 focus:outline-none focus:ring-2 focus:ring-safety-500/30">
+              <option value="" disabled selected>Selecciona una categoría</option>
+              <option>Movimiento de Tierras</option>
+              <option>Equipos Auxiliares</option>
+              <option>Equipos Generación de Energía</option>
+              <option>Equipos de Aire</option>
+              <option>Complementos</option>
+              <option>Unidades Livianas</option>
+            </select>
+          </div>
+
+          <div class="sm:col-span-2">
+            <label for="mensaje" class="mb-2 block text-sm font-medium text-gray-300">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Describe el equipo, cantidad, ubicación del proyecto y tiempo de alquiler..."
+              class="w-full resize-y rounded-lg border border-white/10 bg-carbon-800 px-4 py-3 text-white placeholder-gray-500 transition focus:border-safety-500 focus:outline-none focus:ring-2 focus:ring-safety-500/30"></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="group mt-8 inline-flex w-full items-center justify-center gap-3 rounded-lg bg-safety-500 px-8 py-4 font-semibold uppercase tracking-wide text-carbon-950 shadow-lg shadow-safety-500/20 transition duration-300 hover:-translate-y-0.5 hover:bg-safety-400 sm:w-auto">
+          Enviar Solicitud
+          <i class="fa-solid fa-paper-plane transition-transform duration-300 group-hover:translate-x-1"></i>
+        </button>
+
+        <div id="formSuccess" class="mt-6 hidden items-center gap-3 rounded-lg border border-green-500/30 bg-green-500/10 px-4 py-3 text-sm text-green-300" role="status">
+          <i class="fa-solid fa-circle-check"></i>
+          ¡Gracias! Hemos recibido tu solicitud. Un asesor se comunicará contigo pronto.
+        </div>
+      </form>
+    </div>
+
+    <div class="border-t border-white/5">
+      <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 text-sm text-gray-500 sm:flex-row sm:px-6 lg:px-8">
+        <div class="flex items-center gap-3">
+          <img src="assets/maqlogo.jpg" alt="" class="h-8 w-8 rounded-full bg-white" />
+          <span>&copy; <span id="year"></span> MAQ Lavnor Perú. Todos los derechos reservados.</span>
+        </div>
+        <a href="#top" class="inline-flex items-center gap-2 transition hover:text-safety-400">Volver arriba <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const toggleMenu = (open) => {
+      mobileMenu.classList.toggle('hidden', !open);
+      menuBtn.setAttribute('aria-expanded', String(open));
+      menuBtn.innerHTML = open ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+    };
+    menuBtn.addEventListener('click', () => toggleMenu(mobileMenu.classList.contains('hidden')));
+    mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => toggleMenu(false)));
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    document.querySelectorAll('.quote-link').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('categoria').value = link.dataset.category;
+      });
+    });
+
+    const ruc = document.getElementById('ruc');
+    ruc.addEventListener('input', () => { ruc.value = ruc.value.replace(/\D/g, '').slice(0, 11); });
+
+    const form = document.getElementById('quoteForm');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      let valid = true;
+      form.querySelectorAll('input, select').forEach(field => {
+        const ok = field.checkValidity();
+        field.classList.toggle('border-red-500', !ok);
+        const err = field.parentElement.querySelector('.field-error');
+        if (err) err.classList.toggle('hidden', ok);
+        if (!ok) valid = false;
+      });
+      if (!valid) return;
+
+      const success = document.getElementById('formSuccess');
+      success.classList.remove('hidden');
+      success.classList.add('flex');
+      form.reset();
+    });
+  </script>
+</body>
+</html>
