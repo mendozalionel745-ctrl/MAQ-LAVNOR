@@ -1,0 +1,42 @@
+<section class="detail-intro">
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="../index.html">Inicio</a><span aria-hidden="true">/</span>
+      <a href="../catalogo.html">Equipos</a><span aria-hidden="true">/</span>
+      <a href="../catalogo.html?categoria={{category}}">{{categoryName}}</a><span aria-hidden="true">/</span>
+      <span aria-current="page">{{model}}</span>
+    </nav>
+    <div class="detail-grid">
+      <figure class="detail-image{{imageClass}}">
+        <span class="image-tag">{{typeLabel}}</span>
+        <img src="../{{image}}" width="{{imageWidth}}" height="{{imageHeight}}" alt="{{brand}} {{model}}, imagen del catálogo">
+        <figcaption>{{imageCaption}}</figcaption>
+      </figure>
+      <div class="detail-copy">
+        <p class="eyebrow">{{brand}} / {{categoryName}}</p><h1>{{model}}</h1>
+        <p class="detail-description">{{description}}</p>
+        <div class="detail-highlights">{{highlights}}</div>
+        <div class="availability"><span aria-hidden="true"></span>{{availability}}</div>
+        <a class="button button-yellow" href="../cotizacion.html?equipo={{id}}">{{quoteLabel}} <span aria-hidden="true">↗</span></a>
+        <a class="document-link" href="../{{document}}" target="_blank" rel="noopener">↓ {{documentLabel}} <span class="visually-hidden">(PDF, abre en otra pestaña)</span></a>
+        <p class="document-note">{{documentNote}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section specifications-section">
+  <div class="container specs-layout">
+    <div class="specs-title">
+      <p class="eyebrow">CONOCE EL PRODUCTO</p><h2>Información<br>técnica.</h2>
+      <p>Datos del documento suministrado. Se conservan las unidades y las alternativas de la fuente.</p>
+      <a class="text-link" href="../catalogo.html?categoria={{category}}">← Volver a {{categoryName}}</a>
+    </div>
+    <div class="specs-tables">
+      {{tables}}
+      <aside class="technical-notes"><h3>Observaciones para tu consulta</h3><ul>{{notes}}</ul>
+        <p class="source-note">Fuente: {{source}}. Páginas {{sourcePages}}. Edición / impresión: {{sourceDate}}.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+<section class="cta-band"><div class="container"><div><p class="eyebrow">¿ES EL PRODUCTO QUE NECESITAS?</p><h2>Hablemos de tu operación.</h2></div><a class="button button-dark" href="../cotizacion.html?equipo={{id}}">Consultar {{model}} <span aria-hidden="true">↗</span></a></div></section>

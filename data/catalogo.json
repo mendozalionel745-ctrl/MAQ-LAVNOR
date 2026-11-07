@@ -1,0 +1,5161 @@
+{
+  "categories": [
+    {
+      "id": "movimiento-de-tierras",
+      "name": "Movimiento de tierras",
+      "icon": "earth",
+      "description": "Preparación de terreno y compactación.",
+      "types": [
+        "Minicargadores",
+        "Rodillos tandem"
+      ]
+    },
+    {
+      "id": "equipos-auxiliares",
+      "name": "Equipos auxiliares",
+      "icon": "light",
+      "description": "Iluminación para cada frente de trabajo.",
+      "types": [
+        "Torres de iluminación LED",
+        "Torres de iluminación de halogenuro metálico",
+        "Bombas de achique",
+        "Torres de iluminación diésel",
+        "Torres de iluminación con batería",
+        "Torres de iluminación eléctricas"
+      ]
+    },
+    {
+      "id": "generacion-de-energia",
+      "name": "Equipos de generación de energía",
+      "icon": "power",
+      "description": "Energía temporal para tu operación.",
+      "types": [
+        "Grupos electrógenos",
+        "Sistemas de almacenamiento de energía",
+        "Cargadores rápidos"
+      ]
+    },
+    {
+      "id": "equipos-de-aire",
+      "name": "Equipos de aire",
+      "icon": "air",
+      "description": "Aire comprimido para el trabajo en campo.",
+      "types": [
+        "Compresoras"
+      ]
+    },
+    {
+      "id": "complementos",
+      "name": "Complementos",
+      "icon": "hammer",
+      "description": "Herramientas para ampliar tu capacidad.",
+      "types": [
+        "Martillos hidráulicos",
+        "Martillos neumáticos",
+        "Martillos fragmentadores"
+      ]
+    },
+    {
+      "id": "unidades-livianas",
+      "name": "Unidades livianas",
+      "icon": "truck",
+      "description": "Movilidad para el equipo de trabajo.",
+      "types": [
+        "Camionetas"
+      ]
+    }
+  ],
+  "equipment": [
+    {
+      "id": "pramac-lsw-3y",
+      "brand": "PRAMAC",
+      "model": "LSW-3Y",
+      "sourceModel": "LSW-3Y [LED]",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "description": "Torre de iluminación LED con cuatro focos, mástil manual de acero galvanizado y motor diésel Yanmar 2TNV70. La ficha del fabricante indica un área iluminada de 4100 m2 y un depósito de combustible de 120 l.",
+      "image": "assets/images/equipos/pramac-lsw-3y.webp",
+      "imageWidth": 460,
+      "imageHeight": 476,
+      "document": "assets/documents/pramac-lsw-3y-ficha-tecnica.pdf",
+      "documentLabel": "Descargar ficha técnica",
+      "documentNote": "3 páginas técnicas · documento del fabricante, 2022",
+      "source": "FT_Luminaria_PRAMAC_LSW3.pdf",
+      "sourcePages": [
+        2,
+        3,
+        4
+      ],
+      "sourceDate": "13/05/2022",
+      "highlights": [
+        [
+          "4100",
+          "m² de iluminación"
+        ],
+        [
+          "1280",
+          "W de potencia total"
+        ],
+        [
+          "8.0",
+          "m de altura máxima"
+        ]
+      ],
+      "notes": [
+        "La potencia de 1280 W corresponde al total de las lámparas; la fuente no desglosa la potencia individual.",
+        "La resistencia al viento figura como `80 Km/h en el original; el carácter inicial requiere confirmar el valor con la documentación del equipo.",
+        "La condición del alternador «Continuous power 125°/40°» se conserva tal como aparece; requiere aclaración técnica.",
+        "La ficha indica 240 V y describe un enchufe 230V 16A IP44. Confirmar conexiones y compatibilidad antes del alquiler.",
+        "Imagen del fabricante referencial; puede no corresponder a la configuración exacta de la unidad.",
+        "Disponibilidad, tarifa, traslado y condiciones de alquiler sujetos a consulta."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación",
+          "page": 2,
+          "rows": [
+            [
+              "Tipo de iluminación",
+              "LED",
+              ""
+            ],
+            [
+              "Frecuencia",
+              "60",
+              "Hz"
+            ],
+            [
+              "Voltaje",
+              "240",
+              "V"
+            ],
+            [
+              "Número de focos",
+              "4",
+              ""
+            ],
+            [
+              "Potencia nominal de las lámparas (total)",
+              "1280",
+              "W"
+            ],
+            [
+              "Capacidad de iluminación",
+              "188000",
+              "Lumens"
+            ],
+            [
+              "Área iluminada",
+              "4100",
+              "m2"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 2,
+          "rows": [
+            [
+              "Material",
+              "Acero galvanizado",
+              ""
+            ],
+            [
+              "Altura máxima",
+              "8.0",
+              "m"
+            ],
+            [
+              "Tipo de montaje",
+              "Manual",
+              ""
+            ],
+            [
+              "Sistema de giro",
+              "Manual",
+              ""
+            ],
+            [
+              "Sistema antigiro (Anti-pivoting system)",
+              "Mecánica",
+              ""
+            ],
+            [
+              "Ángulo máximo de giro",
+              "340",
+              "deg"
+            ],
+            [
+              "Estabilizadores ajustables",
+              "4",
+              "n°"
+            ],
+            [
+              "Resistencia máxima al viento (ver observaciones)",
+              "`80",
+              "Km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Motor",
+          "page": 3,
+          "rows": [
+            [
+              "Marca",
+              "Yanmar",
+              ""
+            ],
+            [
+              "Modelo",
+              "2TNV70",
+              ""
+            ],
+            [
+              "Velocidad nominal",
+              "1800",
+              "rpm"
+            ],
+            [
+              "Refrigeración",
+              "Agua",
+              ""
+            ],
+            [
+              "Cilindros y disposición",
+              "2 en línea",
+              ""
+            ],
+            [
+              "Capacidad de aceite",
+              "1",
+              "l"
+            ],
+            [
+              "Combustible",
+              "Diésel",
+              ""
+            ],
+            [
+              "Sistema de arranque",
+              "Eléctrico",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Alternador",
+          "page": 3,
+          "rows": [
+            [
+              "Tipo",
+              "Sin escobillas",
+              ""
+            ],
+            [
+              "Clase",
+              "H",
+              ""
+            ],
+            [
+              "Frecuencia",
+              "60",
+              "Hz"
+            ],
+            [
+              "Voltaje",
+              "240",
+              "V"
+            ],
+            [
+              "Fases",
+              "1",
+              ""
+            ],
+            [
+              "Continuous power 125°/40° (ver observaciones)",
+              "4.5",
+              "kVA"
+            ]
+          ]
+        },
+        {
+          "title": "Movilidad, dimensiones y autonomía",
+          "page": 3,
+          "rows": [
+            [
+              "Tipo de movilidad",
+              "Remolque Lento",
+              ""
+            ],
+            [
+              "Número de ejes",
+              "1",
+              "nr"
+            ],
+            [
+              "Conexión de barra de remolque",
+              "Din eye 45mm",
+              ""
+            ],
+            [
+              "Longitud en transporte",
+              "2480",
+              "mm"
+            ],
+            [
+              "Ancho en transporte",
+              "1310",
+              "mm"
+            ],
+            [
+              "Altura en transporte, mástil y estabilizadores plegados",
+              "2450",
+              "mm"
+            ],
+            [
+              "Longitud en funcionamiento",
+              "2480",
+              "mm"
+            ],
+            [
+              "Ancho en funcionamiento",
+              "2400",
+              "mm"
+            ],
+            [
+              "Altura en funcionamiento, mástil y estabilizadores extendidos",
+              "8000",
+              "mm"
+            ],
+            [
+              "Peso seco",
+              "640",
+              "Kg"
+            ],
+            [
+              "Capacidad de tanque de combustible",
+              "120",
+              "l"
+            ],
+            [
+              "Tipo de tanque",
+              "Depósito de doble pared",
+              ""
+            ],
+            [
+              "Autonomía",
+              "200",
+              "h"
+            ]
+          ]
+        },
+        {
+          "title": "Control, protecciones y conexión",
+          "page": 4,
+          "rows": [
+            [
+              "Panel",
+              "Integrado en la carrocería para monitorización, control y protección",
+              ""
+            ],
+            [
+              "Controles",
+              "Llave de arranque, parada de emergencia externa, horómetro e indicador de combustible",
+              ""
+            ],
+            [
+              "Indicadores",
+              "Bajo combustible, baja presión de aceite, alta temperatura del agua y carga de batería",
+              ""
+            ],
+            [
+              "Protecciones",
+              "Interruptor diferencial con protección de sobrecorriente e interruptor de lámparas",
+              ""
+            ],
+            [
+              "Enchufe (1 unidad)",
+              "2P+T CEE 230V 16A IP44",
+              ""
+            ]
+          ]
+        }
+      ],
+      "kind": "model",
+      "confirmed": true,
+      "typeLabel": "Torre de iluminación LED",
+      "cardTag": "ILUMINACIÓN LED",
+      "imageCaption": "Fotografía referencial del fabricante."
+    },
+    {
+      "id": "atlas-copco-hilight-v5",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight V5+",
+      "sourceModel": "HiLight V5+",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "description": "Torre de iluminación con cuatro focos LED de 350 W, carrocería HardHat® y mástil vertical manual de cinco secciones. El catálogo del fabricante indica una cobertura lumínica de 5000 m2 y motor diésel Kubota Z482.",
+      "image": "assets/images/equipos/atlas-copco-hilight-v5.webp",
+      "imageWidth": 451,
+      "imageHeight": 607,
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=10",
+      "documentLabel": "Ver catálogo del fabricante",
+      "documentNote": "PDF de la gama HiLight · V5+ en páginas 10 y 18 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        10,
+        18
+      ],
+      "sourceDate": "2023",
+      "highlights": [
+        [
+          "5000",
+          "m² de cobertura"
+        ],
+        [
+          "4 × 350",
+          "W en focos LED"
+        ],
+        [
+          "7,5",
+          "m de altura máxima"
+        ]
+      ],
+      "notes": [
+        "La tabla ofrece configuraciones de 50 | 60 Hz. Se conservan sus alternativas separadas por |; confirmar cuál corresponde a la unidad de la flota.",
+        "El consumo de 0,7 l/h se indica en la página 10. No se detallan allí las condiciones de medición.",
+        "La autonomía de HiLight V5+ en la tabla es 137 | 145 h. Las 200 horas destacadas en la página 10 corresponden a V4+.",
+        "Imagen del fabricante referencial; confirmar remolque y configuración de la unidad.",
+        "Disponibilidad, tarifa, traslado y condiciones de alquiler sujetos a consulta.",
+        "La flota confirmada se distingue del resto de la gama del fabricante, cuya disponibilidad requiere consulta."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y rendimiento",
+          "page": 18,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "5000",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia de focos",
+              "4 x 350",
+              "W"
+            ],
+            [
+              "Frecuencia nominal",
+              "50 | 60",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230 | 120",
+              "V CA"
+            ],
+            [
+              "Potencia nominal (PRP)",
+              "2,3 | 2,4",
+              "kW"
+            ],
+            [
+              "Temperatura de funcionamiento (mín./máx.)",
+              "-25 / 50",
+              "°C"
+            ],
+            [
+              "Nivel de ruido (LwA)",
+              "86",
+              "dB(A)"
+            ],
+            [
+              "Presión acústica (LpA) a 7 m",
+              "63",
+              "dB(A)"
+            ]
+          ]
+        },
+        {
+          "title": "Consumo y autonomía",
+          "page": 18,
+          "rows": [
+            [
+              "Capacidad del depósito",
+              "110",
+              "l"
+            ],
+            [
+              "Autonomía",
+              "137 | 145",
+              "h"
+            ]
+          ]
+        },
+        {
+          "title": "Consumo indicado en presentación del modelo",
+          "page": 10,
+          "rows": [
+            [
+              "Consumo de combustible (ver observaciones)",
+              "0,7",
+              "l/h"
+            ],
+            [
+              "Intervalo de mantenimiento",
+              "600",
+              "h"
+            ]
+          ]
+        },
+        {
+          "title": "Motor",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Diésel",
+              ""
+            ],
+            [
+              "Modelo",
+              "Kubota Z482",
+              ""
+            ],
+            [
+              "Velocidad",
+              "1500 | 1800",
+              "r.p.m."
+            ],
+            [
+              "Potencia para uso continuo (PRP)",
+              "2,7 | 3",
+              "kW"
+            ],
+            [
+              "Refrigerante",
+              "Agua",
+              ""
+            ],
+            [
+              "Número de cilindros",
+              "2",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Alternador y potencia auxiliar",
+          "page": 18,
+          "rows": [
+            [
+              "Modelo",
+              "Atlas Copco ACA132B",
+              ""
+            ],
+            [
+              "Potencia de salida nominal",
+              "3 | 4",
+              "kVA"
+            ],
+            [
+              "Aislamiento / protección de carrocería",
+              "H / 23",
+              "clase/IP"
+            ],
+            [
+              "Potencia auxiliar",
+              "1",
+              "kW"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil y estabilidad",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Vertical manual, 5 secciones",
+              ""
+            ],
+            [
+              "Rotación",
+              "360",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "7,5",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "80",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Carrocería, transporte y dimensiones",
+          "page": 18,
+          "rows": [
+            [
+              "Carrocería",
+              "Puertas HardHat® «alas de gaviota»",
+              ""
+            ],
+            [
+              "Bancada base",
+              "Bancada libre de derrames",
+              ""
+            ],
+            [
+              "Remolque",
+              "Homologado en la UE o remolque con sistema de nivelación de 4 puntos",
+              ""
+            ],
+            [
+              "Dimensiones de transporte, barra fija (largo x ancho x alto)",
+              "1,67 x 1,10 x 2,50",
+              "m"
+            ],
+            [
+              "Peso",
+              "702",
+              "kg"
+            ]
+          ]
+        }
+      ],
+      "kind": "model",
+      "confirmed": true,
+      "typeLabel": "Torre de iluminación LED",
+      "cardTag": "ILUMINACIÓN LED",
+      "imageCaption": "Fotografía referencial del fabricante."
+    },
+    {
+      "id": "atlas-copco-hilight-s2",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight S2+",
+      "sourceModel": "HiLight S2+",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "typeLabel": "Torre de iluminación LED",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre LED solar con paneles extensibles, baterías y mástil manual. El fabricante indica 2000 m2 de cobertura con una media de 20 luxes.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=6",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 6, 18 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        6,
+        18
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición.",
+        "La presentación de página 6 indica hasta 11 horas al 100%; la tabla de página 18 expresa 11 | 22 h sin detallar el régimen de cada cifra."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 18,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "2000 (media de 20 luxes)",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Mástil",
+              "Manual vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Solar",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 18,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50 | 60",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230 | 240",
+              "V CA"
+            ],
+            [
+              "Temperatura de funcionamiento (mín./máx.)",
+              "-5 / 50",
+              "ºC"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Solar",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Consumo de combustible",
+          "page": 18,
+          "rows": [
+            [
+              "Autonomía",
+              "11 | 22",
+              "h"
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 18,
+          "rows": [
+            [
+              "Focos",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 90",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Manual",
+              ""
+            ],
+            [
+              "Rotación",
+              "340",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "7",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "80",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Remolque con sistema de nivelación de 4 puntos",
+              ""
+            ],
+            [
+              "Bancada base",
+              "Galvanizada",
+              ""
+            ],
+            [
+              "Carrocería",
+              "Carrocería de acero galvanizado y lacada",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 18,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "3,55 x 1,7 x 2,3",
+              "m"
+            ],
+            [
+              "Peso",
+              "1204",
+              "kg"
+            ]
+          ]
+        },
+        {
+          "title": "Prestaciones descritas por el fabricante",
+          "page": 6,
+          "rows": [
+            [
+              "Autonomía al 100% (presentación)",
+              "hasta 11",
+              "h"
+            ],
+            [
+              "Recarga solar indicada",
+              "8",
+              "h"
+            ],
+            [
+              "Recarga con fuente externa indicada",
+              "3",
+              "h"
+            ],
+            [
+              "Vida útil LED indicada",
+              "hasta 50 000",
+              "horas"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-s2.webp",
+      "imageWidth": 514,
+      "imageHeight": 640,
+      "imageSource": {
+        "page": 6,
+        "index": 2
+      },
+      "lowResolution": false,
+      "cardTag": "SOLAR · LED",
+      "highlights": [
+        [
+          "2000",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 90",
+          "W de iluminación"
+        ],
+        [
+          "7",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-ps-3",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight PS 3",
+      "sourceModel": "HiLight PS 3",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "typeLabel": "Torre de iluminación LED",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre LED diseñada para recibir alimentación del sistema ZBP2000, con carro y dos paneles solares plegables de 200 W. La ficha indica 3000 m2 de cobertura.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=14",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 14, 18 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        14,
+        18
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición.",
+        "La tabla clasifica la fuente como Solar; el texto de página 14 indica alimentación por ZBP2000, paneles solares o fuente externa. No es un generador diésel. El asterisco de temperatura no tiene aclaración identificable en esa página."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 18,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "3000 (media de 20 luxes)",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Mástil",
+              "Manual vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Funcionamiento con ZBP2000, función de regulación de intensidad, conexión Wi-Fi, carro y dos paneles solares plegables de 200 W",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 18,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50 | 60",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "100-277 V",
+              ""
+            ],
+            [
+              "Potencia nominal (PRP)",
+              "0,48",
+              "kW"
+            ],
+            [
+              "Temperatura de funcionamiento (mín./máx.)",
+              "-10 / 50*",
+              "ºC"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Solar",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 18,
+          "rows": [
+            [
+              "Focos",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 120",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Manual",
+              ""
+            ],
+            [
+              "Rotación",
+              "360",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "3",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "50",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Carro con mástil y dos paneles solares de 200 W para uso con ZBP2000",
+              ""
+            ],
+            [
+              "Carrocería",
+              "Cuerpo principal de acero al carbono lacado en gris + acero inoxidable",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 18,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "1 x 0,72 x 1,22",
+              "m"
+            ],
+            [
+              "Peso",
+              "125",
+              "kg"
+            ]
+          ]
+        },
+        {
+          "title": "Prestaciones descritas por el fabricante",
+          "page": 14,
+          "rows": [
+            [
+              "Paneles solares plegables",
+              "2 x 200",
+              "W"
+            ],
+            [
+              "Vida útil LED indicada",
+              "50 000",
+              "horas"
+            ],
+            [
+              "Protección indicada para focos",
+              "IP67 e IK10",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-ps-3.webp",
+      "imageWidth": 357,
+      "imageHeight": 660,
+      "imageSource": {
+        "page": 14,
+        "index": 0
+      },
+      "lowResolution": false,
+      "cardTag": "BATERÍAS / SOLAR · LED",
+      "highlights": [
+        [
+          "3000",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 120",
+          "W de iluminación"
+        ],
+        [
+          "3",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-bi-4",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight BI+ 4",
+      "sourceModel": "HiLight BI+ 4",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "typeLabel": "Torre de iluminación LED",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre LED híbrida con motor diésel, baterías de iones de litio y cuatro modos de funcionamiento. Incorpora elevación hidráulica y rotación eléctrica del mástil.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=5",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 4, 5, 18 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        4,
+        5,
+        18
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 18,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "4000",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Mástil",
+              "Hidráulico vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Tecnología híbrida, 4 modos de funcionamiento, rotación eléctrica del mástil, se puede utilizar en 60 Hz, sin toma de salida",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 18,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230 (entrada)",
+              "V CA"
+            ],
+            [
+              "Potencia nominal (PRP)",
+              "1,4",
+              "kW"
+            ],
+            [
+              "Temperatura de funcionamiento (mín./máx.)",
+              "-10 / 50",
+              "ºC"
+            ],
+            [
+              "Nivel de ruidos (LwA)",
+              "80",
+              "dB(A)"
+            ],
+            [
+              "Nivel de presión acústica (LpA) a 7 m.",
+              "54",
+              "dB(A)"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Híbrido",
+              ""
+            ],
+            [
+              "Modelo",
+              "Kubota Z482",
+              ""
+            ],
+            [
+              "Velocidad",
+              "1 500",
+              "r.p.m."
+            ],
+            [
+              "Potencia para uso continuo (PRP)",
+              "2,7",
+              "kW"
+            ],
+            [
+              "Refrigerante",
+              "Agua",
+              ""
+            ],
+            [
+              "Número de cilindros",
+              "2",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Alternador",
+          "page": 18,
+          "rows": [
+            [
+              "Modelo",
+              "NSM",
+              ""
+            ],
+            [
+              "Potencia de salida nominal",
+              "4,5",
+              "kVA"
+            ],
+            [
+              "Protección de la carrocería/ aislamiento",
+              "H / 21",
+              "clase/IP"
+            ]
+          ]
+        },
+        {
+          "title": "Consumo de combustible",
+          "page": 18,
+          "rows": [
+            [
+              "Capacidad del depósito de combustible",
+              "180",
+              "l"
+            ],
+            [
+              "Autonomía",
+              "614",
+              "h"
+            ]
+          ]
+        },
+        {
+          "title": "Entrega de potencia",
+          "page": 18,
+          "rows": [
+            [
+              "Potencia auxiliar",
+              "Opcional",
+              "kW"
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 18,
+          "rows": [
+            [
+              "Focos",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 150",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Hidráulico",
+              ""
+            ],
+            [
+              "Rotación",
+              "340",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "8",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "80",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 18,
+          "rows": [
+            [
+              "Bancada base",
+              "Bancada libre de derrames",
+              ""
+            ],
+            [
+              "Carrocería",
+              "Carrocería de acero galvanizado y lacada",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 18,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "1,18 x 1,16 x 2,59",
+              "m"
+            ],
+            [
+              "Peso",
+              "1005",
+              "kg"
+            ]
+          ]
+        },
+        {
+          "title": "Prestaciones descritas por el fabricante",
+          "page": 4,
+          "rows": [
+            [
+              "Autonomía solo con baterías",
+              "hasta 19",
+              "h"
+            ],
+            [
+              "Consumo medio en modo híbrido",
+              "0,29",
+              "l/h"
+            ],
+            [
+              "Intervalo de servicio",
+              "1500",
+              "horas de iluminación"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-bi-4.webp",
+      "imageWidth": 486,
+      "imageHeight": 884,
+      "imageSource": {
+        "page": 5,
+        "index": 0
+      },
+      "lowResolution": false,
+      "cardTag": "HÍBRIDA · LED",
+      "highlights": [
+        [
+          "4000",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 150",
+          "W de iluminación"
+        ],
+        [
+          "8",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-h6",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight H6+",
+      "sourceModel": "HiLight H6+",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "typeLabel": "Torre de iluminación LED",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre LED con mástil hidráulico, motor Kubota Z482 y cobertura de 6000 m2. El fabricante presenta una carrocería protectora y acceso de servicio por un lateral.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=9",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 9, 18 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        9,
+        18
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición.",
+        "La presentación menciona HardHat®, mientras la celda de carrocería de página 18 dice HardBody®. Se conserva la discrepancia para confirmar la configuración."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 18,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "6000",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Mástil",
+              "Hidráulico vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Carrocería HardHat®",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 18,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230",
+              "V CA"
+            ],
+            [
+              "Potencia nominal (PRP)",
+              "2,3",
+              "kW"
+            ],
+            [
+              "Temperatura de funcionamiento (mín./máx.)",
+              "-20 / 40",
+              "ºC"
+            ],
+            [
+              "Nivel de ruidos (LwA)",
+              "82",
+              "dB(A)"
+            ],
+            [
+              "Nivel de presión acústica (LpA) a 7 m.",
+              "55",
+              "dB(A)"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Diésel",
+              ""
+            ],
+            [
+              "Modelo",
+              "Kubota Z482",
+              ""
+            ],
+            [
+              "Velocidad",
+              "1 500",
+              "r.p.m."
+            ],
+            [
+              "Potencia para uso continuo (PRP)",
+              "2,7",
+              "kW"
+            ],
+            [
+              "Refrigerante",
+              "Agua",
+              ""
+            ],
+            [
+              "Número de cilindros",
+              "2",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Alternador",
+          "page": 18,
+          "rows": [
+            [
+              "Modelo",
+              "Linz Alumen SB\"",
+              ""
+            ],
+            [
+              "Potencia de salida nominal",
+              "3,5 | 4,5",
+              "kVA"
+            ],
+            [
+              "Protección de la carrocería/ aislamiento",
+              "H / 21",
+              "clase/IP"
+            ]
+          ]
+        },
+        {
+          "title": "Consumo de combustible",
+          "page": 18,
+          "rows": [
+            [
+              "Capacidad del depósito de combustible",
+              "120",
+              "l"
+            ],
+            [
+              "Autonomía",
+              "180",
+              "h"
+            ]
+          ]
+        },
+        {
+          "title": "Entrega de potencia",
+          "page": 18,
+          "rows": [
+            [
+              "Potencia auxiliar",
+              "1,2",
+              "kW"
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 18,
+          "rows": [
+            [
+              "Focos",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 350",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Hidráulico",
+              ""
+            ],
+            [
+              "Rotación",
+              "340",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "8",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "80",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Homologado en la UE con barra de remolque fija o remolque",
+              ""
+            ],
+            [
+              "Bancada base",
+              "Bancada libre de derrames",
+              ""
+            ],
+            [
+              "Carrocería",
+              "HardBody®",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 18,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "2,09 x 1,29 x 2,5",
+              "m"
+            ],
+            [
+              "Peso",
+              "995",
+              "kg"
+            ]
+          ]
+        },
+        {
+          "title": "Prestaciones descritas por el fabricante",
+          "page": 9,
+          "rows": [
+            [
+              "Mantenimiento indicado",
+              "40 min. cada 600 h.",
+              ""
+            ],
+            [
+              "Vida útil LED indicada",
+              "hasta 50 000",
+              "horas"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-h6.webp",
+      "imageWidth": 683,
+      "imageHeight": 970,
+      "imageSource": {
+        "page": 9,
+        "index": 0
+      },
+      "lowResolution": false,
+      "cardTag": "DIÉSEL · LED",
+      "highlights": [
+        [
+          "6000",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 350",
+          "W de iluminación"
+        ],
+        [
+          "8",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-b6",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight B6+",
+      "sourceModel": "HiLight B6+",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "typeLabel": "Torre de iluminación LED",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre LED con mástil hidráulico, motor Kubota Z482 y caja compacta. La tabla técnica indica cobertura de 6000 m2 y presión acústica de 55 dB(A) a 7 m.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=7",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 7, 18 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        7,
+        18
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición.",
+        "Las celdas de alternador incluyen dos juegos de potencia y de protección sin aclarar su correspondencia. Se conserva el contenido para revisión técnica."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 18,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "6000",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Mástil",
+              "Hidráulico vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Caja compacta",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 18,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50 | 60",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230 | 120",
+              "V CA"
+            ],
+            [
+              "Potencia nominal (PRP)",
+              "2,3 | 2,4",
+              "kW"
+            ],
+            [
+              "Temperatura de funcionamiento (mín./máx.)",
+              "-20 / 40",
+              "ºC"
+            ],
+            [
+              "Nivel de ruidos (LwA)",
+              "82",
+              "dB(A)"
+            ],
+            [
+              "Nivel de presión acústica (LpA) a 7 m.",
+              "55",
+              "dB(A)"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Diésel",
+              ""
+            ],
+            [
+              "Modelo",
+              "Kubota Z482",
+              ""
+            ],
+            [
+              "Velocidad",
+              "1500 | 1800",
+              "r.p.m."
+            ],
+            [
+              "Potencia para uso continuo (PRP)",
+              "2,7 | 3",
+              "kW"
+            ],
+            [
+              "Refrigerante",
+              "Agua",
+              ""
+            ],
+            [
+              "Número de cilindros",
+              "2",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Alternador",
+          "page": 18,
+          "rows": [
+            [
+              "Modelo",
+              "Meccalte LT3/75 ACA132BL\"",
+              ""
+            ],
+            [
+              "Potencia de salida nominal",
+              "3,5 | 4,5 3 | 4",
+              "kVA"
+            ],
+            [
+              "Protección de la carrocería/ aislamiento",
+              "H / 21 H / 23\"",
+              "clase/IP"
+            ]
+          ]
+        },
+        {
+          "title": "Consumo de combustible",
+          "page": 18,
+          "rows": [
+            [
+              "Capacidad del depósito de combustible",
+              "130",
+              "l"
+            ],
+            [
+              "Autonomía",
+              "200",
+              "h"
+            ]
+          ]
+        },
+        {
+          "title": "Entrega de potencia",
+          "page": 18,
+          "rows": [
+            [
+              "Potencia auxiliar",
+              "1,2",
+              "kW"
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 18,
+          "rows": [
+            [
+              "Focos",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 350",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Hidráulico",
+              ""
+            ],
+            [
+              "Rotación",
+              "340",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "8",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "80",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 18,
+          "rows": [
+            [
+              "Bancada base",
+              "Bancada libre de derrames",
+              ""
+            ],
+            [
+              "Carrocería",
+              "Carrocería de acero galvanizado y lacada",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 18,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "1,16 x 1,16 x 2,5",
+              "m"
+            ],
+            [
+              "Peso",
+              "980",
+              "kg"
+            ]
+          ]
+        },
+        {
+          "title": "Prestaciones descritas por el fabricante",
+          "page": 7,
+          "rows": [
+            [
+              "Intervalo de mantenimiento",
+              "600",
+              "h"
+            ],
+            [
+              "Vida útil LED indicada",
+              "hasta 50 000",
+              "horas"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-b6.webp",
+      "imageWidth": 616,
+      "imageHeight": 876,
+      "imageSource": {
+        "page": 7,
+        "index": 0
+      },
+      "lowResolution": false,
+      "cardTag": "DIÉSEL · LED",
+      "highlights": [
+        [
+          "6000",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 350",
+          "W de iluminación"
+        ],
+        [
+          "8",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-v4-plus",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight V4+",
+      "sourceModel": "HiLight V4+",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "typeLabel": "Torre de iluminación LED",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre con cuatro focos LED de 250 W, carrocería HardHat® y mástil vertical manual. El catálogo indica 4000 m2 de cobertura con una media de 20 luxes.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=10",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 10, 18 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        10,
+        18
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 18,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "4000 (media de 20 luxes)",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Mástil",
+              "Manual vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Carrocería HardHat®",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 18,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50 | 60",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230 | 120",
+              "V CA"
+            ],
+            [
+              "Potencia nominal (PRP)",
+              "2,3 | 2,4",
+              "kW"
+            ],
+            [
+              "Temperatura de funcionamiento (mín./máx.)",
+              "-25 / 50",
+              "ºC"
+            ],
+            [
+              "Nivel de ruidos (LwA)",
+              "88",
+              "dB(A)"
+            ],
+            [
+              "Nivel de presión acústica (LpA) a 7 m.",
+              "65",
+              "dB(A)"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Diésel",
+              ""
+            ],
+            [
+              "Modelo",
+              "Kubota Z482",
+              ""
+            ],
+            [
+              "Velocidad",
+              "1500 | 1800",
+              "r.p.m."
+            ],
+            [
+              "Potencia para uso continuo (PRP)",
+              "2,7 | 3",
+              "kW"
+            ],
+            [
+              "Refrigerante",
+              "Agua",
+              ""
+            ],
+            [
+              "Número de cilindros",
+              "2",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Alternador",
+          "page": 18,
+          "rows": [
+            [
+              "Modelo",
+              "\"Atlas Copco ACA132B\"",
+              ""
+            ],
+            [
+              "Potencia de salida nominal",
+              "3 | 4",
+              "kVA"
+            ],
+            [
+              "Protección de la carrocería/ aislamiento",
+              "H / 23",
+              "clase/IP"
+            ]
+          ]
+        },
+        {
+          "title": "Consumo de combustible",
+          "page": 18,
+          "rows": [
+            [
+              "Capacidad del depósito de combustible",
+              "110",
+              "l"
+            ],
+            [
+              "Autonomía",
+              "305 | 297",
+              "h"
+            ]
+          ]
+        },
+        {
+          "title": "Entrega de potencia",
+          "page": 18,
+          "rows": [
+            [
+              "Potencia auxiliar",
+              "1",
+              "kW"
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 18,
+          "rows": [
+            [
+              "Focos",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 250",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Vertical manual, 5 secciones",
+              ""
+            ],
+            [
+              "Rotación",
+              "360",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "7,5",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "80",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Remolque con sistema de nivelación de 4 puntos",
+              ""
+            ],
+            [
+              "Bancada base",
+              "Bancada libre de derrames",
+              ""
+            ],
+            [
+              "Carrocería",
+              "Puertas HardHat® ‘alas de gaviota’",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 18,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "1,67 x 1,10 x 2,50",
+              "m"
+            ],
+            [
+              "Peso",
+              "702",
+              "kg"
+            ]
+          ]
+        },
+        {
+          "title": "Prestaciones descritas por el fabricante",
+          "page": 10,
+          "rows": [
+            [
+              "Consumo indicado",
+              "0,5",
+              "l/h"
+            ],
+            [
+              "Intervalo de mantenimiento",
+              "600",
+              "h"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-v4-plus.webp",
+      "imageWidth": 438,
+      "imageHeight": 592,
+      "imageSource": {
+        "page": 10,
+        "index": 0
+      },
+      "lowResolution": false,
+      "cardTag": "DIÉSEL · LED",
+      "highlights": [
+        [
+          "4000",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 250",
+          "W de iluminación"
+        ],
+        [
+          "7,5",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-v4",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight V4",
+      "sourceModel": "HiLight V4",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación de halogenuro metálico",
+      "typeLabel": "Torre de iluminación de halogenuro metálico",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre diésel con cuatro focos de halogenuro metálico de 1000 W, mástil manual y puertas de acceso «alas de gaviota».",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=11",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 11, 18 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        11,
+        18
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 18,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "4000",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "Halogenuro metálico",
+              ""
+            ],
+            [
+              "Mástil",
+              "Manual vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Carrocería HardHat®",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 18,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50 | 60",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230 | 120",
+              "V CA"
+            ],
+            [
+              "Potencia nominal (PRP)",
+              "5,5 | 6",
+              "kW"
+            ],
+            [
+              "Temperatura de funcionamiento (mín./máx.)",
+              "-25 / 49",
+              "ºC"
+            ],
+            [
+              "Nivel de ruidos (LwA)",
+              "92 | 94",
+              "dB(A)"
+            ],
+            [
+              "Nivel de presión acústica (LpA) a 7 m.",
+              "71 | 73",
+              "dB(A)"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Diésel",
+              ""
+            ],
+            [
+              "Modelo",
+              "Kubota Z482",
+              ""
+            ],
+            [
+              "Velocidad",
+              "3000 | 3600",
+              "r.p.m."
+            ],
+            [
+              "Potencia para uso continuo (PRP)",
+              "6,9 | 8,1",
+              "kW"
+            ],
+            [
+              "Refrigerante",
+              "Agua",
+              ""
+            ],
+            [
+              "Número de cilindros",
+              "2",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Alternador",
+          "page": 18,
+          "rows": [
+            [
+              "Modelo",
+              "Sincro EK 2 MCT",
+              ""
+            ],
+            [
+              "Potencia de salida nominal",
+              "6 | 7,5",
+              "kVA"
+            ],
+            [
+              "Protección de la carrocería/ aislamiento",
+              "H / 23",
+              "clase/IP"
+            ]
+          ]
+        },
+        {
+          "title": "Consumo de combustible",
+          "page": 18,
+          "rows": [
+            [
+              "Capacidad del depósito de combustible",
+              "110",
+              "l"
+            ],
+            [
+              "Autonomía",
+              "57 | 50",
+              "h"
+            ]
+          ]
+        },
+        {
+          "title": "Entrega de potencia",
+          "page": 18,
+          "rows": [
+            [
+              "Potencia auxiliar",
+              "1,4 | 2",
+              "kW"
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 18,
+          "rows": [
+            [
+              "Focos",
+              "Halogenuro metálico",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 1000",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Vertical manual, 5 secciones",
+              ""
+            ],
+            [
+              "Rotación",
+              "360",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "7,5",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "80",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 18,
+          "rows": [
+            [
+              "Tipo",
+              "Homologado en la UE o remolque con sistema de nivelación de 4 puntos",
+              ""
+            ],
+            [
+              "Bancada base",
+              "Bancada libre de derrames",
+              ""
+            ],
+            [
+              "Carrocería",
+              "Puertas HardHat® ‘alas de gaviota’",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 18,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "1,67 x 1,10 x 2,50",
+              "m"
+            ],
+            [
+              "Peso",
+              "670",
+              "kg"
+            ]
+          ]
+        },
+        {
+          "title": "Prestaciones descritas por el fabricante",
+          "page": 11,
+          "rows": [
+            [
+              "Consumo indicado",
+              "2",
+              "l/h"
+            ],
+            [
+              "Vida útil de lámparas indicada",
+              "hasta 6000",
+              "h"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-v4.webp",
+      "imageWidth": 387,
+      "imageHeight": 718,
+      "imageSource": {
+        "page": 11,
+        "index": 0
+      },
+      "lowResolution": false,
+      "cardTag": "HALOGENURO METÁLICO",
+      "highlights": [
+        [
+          "4000",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 1000",
+          "W de iluminación"
+        ],
+        [
+          "7,5",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-v4w",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight V4W",
+      "sourceModel": "HiLight V4W",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación de halogenuro metálico",
+      "typeLabel": "Torre de iluminación de halogenuro metálico",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre diésel con cuatro focos de halogenuro metálico de 1000 W, depósito de 160 l y mástil de 7,5 m. La tabla presenta configuraciones de 50 | 60 Hz.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=11",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 11, 19 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        11,
+        19
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 19,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "4000",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "Halogenuro metálico",
+              ""
+            ],
+            [
+              "Mástil",
+              "Manual vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Carrocería HardHat®",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 19,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50 | 60",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230 | 120",
+              "V CA"
+            ],
+            [
+              "Potencia nominal (PRP)",
+              "6 | 8",
+              "kW"
+            ],
+            [
+              "Temperatura de funcionamiento (mín./máx.)",
+              "-25 / 50",
+              "ºC"
+            ],
+            [
+              "Nivel de ruidos (LwA)",
+              "87 | 89",
+              "dB(A)"
+            ],
+            [
+              "Nivel de presión acústica (LpA) a 7 m.",
+              "63 | 64",
+              "dB(A)"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Diésel",
+              ""
+            ],
+            [
+              "Modelo",
+              "Kubota Z482",
+              ""
+            ],
+            [
+              "Velocidad",
+              "1500 | 1800",
+              "r.p.m."
+            ],
+            [
+              "Potencia para uso continuo (PRP)",
+              "2,7 | 3",
+              "kW"
+            ],
+            [
+              "Refrigerante",
+              "Agua",
+              ""
+            ],
+            [
+              "Número de cilindros",
+              "2",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Alternador",
+          "page": 19,
+          "rows": [
+            [
+              "Modelo",
+              "Atlas Copco DP06/AG164",
+              ""
+            ],
+            [
+              "Potencia de salida nominal",
+              "6 | 8",
+              "kVA"
+            ],
+            [
+              "Protección de la carrocería/ aislamiento",
+              "H / 23",
+              "clase/IP"
+            ]
+          ]
+        },
+        {
+          "title": "Consumo de combustible",
+          "page": 19,
+          "rows": [
+            [
+              "Capacidad del depósito de combustible",
+              "160",
+              "l"
+            ],
+            [
+              "Autonomía",
+              "90",
+              "h"
+            ]
+          ]
+        },
+        {
+          "title": "Entrega de potencia",
+          "page": 19,
+          "rows": [
+            [
+              "Potencia auxiliar",
+              "2",
+              "kW"
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 19,
+          "rows": [
+            [
+              "Focos",
+              "Halogenuro metálico",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 1000",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Vertical manual, 5 secciones",
+              ""
+            ],
+            [
+              "Rotación",
+              "360",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "7,5",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "80",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Homologado en la UE o remolque con sistema de nivelación de 4 puntos",
+              ""
+            ],
+            [
+              "Bancada base",
+              "Bancada libre de derrames",
+              ""
+            ],
+            [
+              "Carrocería",
+              "Puertas HardHat® ‘alas de gaviota’",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 19,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "1,8 x 1,35 x 2,97",
+              "m"
+            ],
+            [
+              "Peso",
+              "826",
+              "kg"
+            ]
+          ]
+        },
+        {
+          "title": "Prestaciones descritas por el fabricante",
+          "page": 11,
+          "rows": [
+            [
+              "Consumo indicado",
+              "1,7",
+              "l/h"
+            ],
+            [
+              "Vida útil de lámparas indicada",
+              "hasta 6000",
+              "h"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-v4w.webp",
+      "imageWidth": 452,
+      "imageHeight": 606,
+      "imageSource": {
+        "page": 11,
+        "index": 1
+      },
+      "lowResolution": false,
+      "cardTag": "HALOGENURO METÁLICO",
+      "highlights": [
+        [
+          "4000",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 1000",
+          "W de iluminación"
+        ],
+        [
+          "7,5",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-e3",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight E3+",
+      "sourceModel": "HiLight E3+",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "typeLabel": "Torre de iluminación LED",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre LED eléctrica con carrocería HardHat® y mástil manual de 7 m. Puede recibir alimentación de una fuente eléctrica externa.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=13",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 13, 19 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        13,
+        19
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición.",
+        "Página 13 menciona estabilidad hasta 100 km/h, mientras la tabla de página 19 indica 80 km/h. Se presenta el valor de la tabla y se señala la diferencia; confirmar antes de operar."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 19,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "3000 (media de 12 luxes)",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Mástil",
+              "Manual vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Eléctricas",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 19,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50 | 60",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230 | 120",
+              "V CA"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Eléctricas",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 19,
+          "rows": [
+            [
+              "Focos",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 160; 1 x 500",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Manual",
+              ""
+            ],
+            [
+              "Rotación",
+              "0",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "7",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "80",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 19,
+          "rows": [
+            [
+              "Bancada base",
+              "Galvanizada",
+              ""
+            ],
+            [
+              "Carrocería",
+              "Carrocería HardHat®",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 19,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "1,13 x 0,76 x 2,2",
+              "m"
+            ],
+            [
+              "Peso",
+              "276",
+              "kg"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-e3.webp",
+      "imageWidth": 492,
+      "imageHeight": 749,
+      "imageSource": {
+        "page": 13,
+        "index": 0
+      },
+      "lowResolution": false,
+      "cardTag": "ELÉCTRICA · LED",
+      "highlights": [
+        [
+          "3000",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 160; 1 x 500",
+          "W de iluminación"
+        ],
+        [
+          "7",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-pe-3",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight PE 3",
+      "sourceModel": "HiLight PE 3",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "typeLabel": "Torre de iluminación LED",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Solución LED portátil con regulación de intensidad, conexión Wi-Fi y caja de transporte. La tabla indica 3000 m2 de cobertura y mástil manual de 3 m.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=15",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 15, 19 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        15,
+        19
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición.",
+        "El párrafo de página 15 imprime «3000 m3»; el recuadro de esa misma página y la tabla de página 19 indican 3000 m2. Se utiliza la unidad de la tabla sin ocultar la discrepancia."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 19,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "3000 (media de 20 luxes)",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Mástil",
+              "Manual vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Eléctrica, regulación de intensidad, conexión Wi-Fi y caja de transporte de plástico. IP67 IK10",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 19,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50 | 60",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "100-277 V",
+              ""
+            ],
+            [
+              "Potencia nominal (PRP)",
+              "0,48",
+              "kW"
+            ],
+            [
+              "Temperatura de funcionamiento (mín./máx.)",
+              "-40 / 45",
+              "ºC"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Eléctrica",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 19,
+          "rows": [
+            [
+              "Focos",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 120",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Manual",
+              ""
+            ],
+            [
+              "Rotación",
+              "360",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "3",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "50",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Mástil manual con caja de plástico para transporte",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 19,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "1,19 x 0,53 x 0,20",
+              "m"
+            ],
+            [
+              "Peso",
+              "30",
+              "kg"
+            ]
+          ]
+        },
+        {
+          "title": "Prestaciones descritas por el fabricante",
+          "page": 15,
+          "rows": [
+            [
+              "Eficacia luminosa indicada",
+              "150",
+              "lm/W"
+            ],
+            [
+              "Funciones",
+              "Regulación de intensidad y conexión Wi-Fi",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-pe-3.webp",
+      "imageWidth": 530,
+      "imageHeight": 741,
+      "imageSource": {
+        "page": 15,
+        "index": 0
+      },
+      "lowResolution": false,
+      "cardTag": "ELÉCTRICA PORTÁTIL · LED",
+      "highlights": [
+        [
+          "3000",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 120",
+          "W de iluminación"
+        ],
+        [
+          "3",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-v2",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight V2+",
+      "sourceModel": "HiLight V2+",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "typeLabel": "Torre de iluminación LED",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre LED eléctrica con mástil manual, bancada de acero y protecciones de polietileno. La tabla indica una potencia de iluminación de 320 W.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=16",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 16, 19 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        16,
+        19
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 19,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "2000 (media de 10 luxes)",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Mástil",
+              "Manual vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Eléctricas",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 19,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230",
+              "V CA"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Eléctrica",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 19,
+          "rows": [
+            [
+              "Focos",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia",
+              "320",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Manual",
+              ""
+            ],
+            [
+              "Rotación",
+              "0",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "5",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "50",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Remolque para servicio pesado con protecciones de polietileno",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 19,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "1,1 x 0,85 x 2",
+              "m"
+            ],
+            [
+              "Peso",
+              "110",
+              "kg"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-v2.webp",
+      "imageWidth": 426,
+      "imageHeight": 603,
+      "imageSource": {
+        "page": 16,
+        "index": 1
+      },
+      "lowResolution": false,
+      "cardTag": "ELÉCTRICA · LED",
+      "highlights": [
+        [
+          "2000",
+          "m² de cobertura"
+        ],
+        [
+          "320",
+          "W de iluminación"
+        ],
+        [
+          "5",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-hilight-v3",
+      "brand": "ATLAS COPCO",
+      "model": "HiLight V3+",
+      "sourceModel": "HiLight V3+",
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación LED",
+      "typeLabel": "Torre de iluminación LED",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Torre eléctrica con cuatro focos LED de 120 W, mástil manual de 5 m y protecciones de polietileno. Se conserva la cobertura indicada en la tabla técnica.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=16",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 16, 19 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        16,
+        19
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Las alternativas separadas por | y las unidades se conservan. Los campos vacíos o con guion del documento no se completan por suposición.",
+        "Página 19 indica 2500 m2 con media de 10 luxes. Página 16 muestra 3000 m2 con la etiqueta V2+ repetida. No se sustituye el dato de la tabla ni se asume la asignación del rótulo."
+      ],
+      "groups": [
+        {
+          "title": "Iluminación y configuración",
+          "page": 19,
+          "rows": [
+            [
+              "Cobertura lumínica",
+              "2500 (media de 10 luxes)",
+              "m2"
+            ],
+            [
+              "Lámparas",
+              "LED",
+              ""
+            ],
+            [
+              "Mástil",
+              "Manual vertical",
+              ""
+            ],
+            [
+              "Características",
+              "Eléctricas",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Datos de rendimiento",
+          "page": 19,
+          "rows": [
+            [
+              "Frecuencia nominal",
+              "50",
+              "Hz"
+            ],
+            [
+              "Tensión nominal",
+              "230",
+              "V CA"
+            ]
+          ]
+        },
+        {
+          "title": "Fuente de energía",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Eléctrica",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Luces",
+          "page": 19,
+          "rows": [
+            [
+              "Focos",
+              "LED",
+              ""
+            ],
+            [
+              "Potencia",
+              "4 x 120",
+              "W"
+            ]
+          ]
+        },
+        {
+          "title": "Mástil",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Manual",
+              ""
+            ],
+            [
+              "Rotación",
+              "0",
+              "grados"
+            ],
+            [
+              "Altura máxima",
+              "5",
+              "m"
+            ],
+            [
+              "Velocidad máxima de viento",
+              "50",
+              "km/h"
+            ]
+          ]
+        },
+        {
+          "title": "Caja y remolque",
+          "page": 19,
+          "rows": [
+            [
+              "Tipo",
+              "Remolque para servicio pesado con protecciones de polietileno",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Dimensiones y peso",
+          "page": 19,
+          "rows": [
+            [
+              "Dimensiones de transporte Barra de remolque fija (largo x ancho x alto)",
+              "1,1 x 0,85 x 2",
+              "m"
+            ],
+            [
+              "Peso",
+              "110",
+              "kg"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-hilight-v3.webp",
+      "imageWidth": 418,
+      "imageHeight": 580,
+      "imageSource": {
+        "page": 16,
+        "index": 0
+      },
+      "lowResolution": false,
+      "cardTag": "ELÉCTRICA · LED",
+      "highlights": [
+        [
+          "2500",
+          "m² de cobertura"
+        ],
+        [
+          "4 x 120",
+          "W de iluminación"
+        ],
+        [
+          "5",
+          "m de altura máxima"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-p2000i",
+      "brand": "ATLAS COPCO",
+      "model": "P2000i",
+      "sourceModel": "P2000i",
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Grupo electrógeno",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Generador de la gama iP/P incluido en la tabla de fuentes de alimentación sugeridas. El documento indica 1,6 kW para P2000i.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=15",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 15 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        15
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen de la tabla, asociada a P2000i y P2500i. Resolución original reducida.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Esta página no especifica motor, combustible, tensión, frecuencia, autonomía, dimensiones ni peso del generador. No se completan con datos de otros modelos.",
+        "Las fotografías de la tabla se comparten entre varias columnas; no acreditan la configuración de una unidad. Las cantidades de torres son una referencia de dimensionamiento del fabricante, no una garantía de compatibilidad."
+      ],
+      "groups": [
+        {
+          "title": "Información disponible en el documento",
+          "page": 15,
+          "rows": [
+            [
+              "Modelo",
+              "P2000i",
+              ""
+            ],
+            [
+              "Potencia indicada (sin clasificación PRP en esta tabla)",
+              "1,6",
+              "kW"
+            ],
+            [
+              "Gama",
+              "Generadores iP y P",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Referencia de dimensionamiento de la tabla",
+          "page": 15,
+          "rows": [
+            [
+              "HiLight PE 3: cantidad sugerida",
+              "3",
+              ""
+            ],
+            [
+              "HiLight V3+: cantidad sugerida",
+              "1",
+              ""
+            ],
+            [
+              "HiLight E3+: cantidad sugerida",
+              "2",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-p2000i.webp",
+      "imageWidth": 62,
+      "imageHeight": 50,
+      "imageSource": {
+        "page": 15,
+        "index": 2
+      },
+      "lowResolution": true,
+      "cardTag": "GENERADOR PORTÁTIL",
+      "highlights": [
+        [
+          "1,6",
+          "kW indicados en tabla"
+        ],
+        [
+          "iP / P",
+          "gama del fabricante"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-p2500i",
+      "brand": "ATLAS COPCO",
+      "model": "P2500i",
+      "sourceModel": "P2500i",
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Grupo electrógeno",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Generador de la gama iP/P incluido en la tabla de fuentes de alimentación sugeridas. El documento indica 2,3 kW para P2500i.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=15",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 15 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        15
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen de la tabla, asociada a P2000i y P2500i. Resolución original reducida.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Esta página no especifica motor, combustible, tensión, frecuencia, autonomía, dimensiones ni peso del generador. No se completan con datos de otros modelos.",
+        "Las fotografías de la tabla se comparten entre varias columnas; no acreditan la configuración de una unidad. Las cantidades de torres son una referencia de dimensionamiento del fabricante, no una garantía de compatibilidad."
+      ],
+      "groups": [
+        {
+          "title": "Información disponible en el documento",
+          "page": 15,
+          "rows": [
+            [
+              "Modelo",
+              "P2500i",
+              ""
+            ],
+            [
+              "Potencia indicada (sin clasificación PRP en esta tabla)",
+              "2,3",
+              "kW"
+            ],
+            [
+              "Gama",
+              "Generadores iP y P",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Referencia de dimensionamiento de la tabla",
+          "page": 15,
+          "rows": [
+            [
+              "HiLight PE 3: cantidad sugerida",
+              "4",
+              ""
+            ],
+            [
+              "HiLight V3+: cantidad sugerida",
+              "1",
+              ""
+            ],
+            [
+              "HiLight E3+: cantidad sugerida",
+              "3",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-p2500i.webp",
+      "imageWidth": 62,
+      "imageHeight": 50,
+      "imageSource": {
+        "page": 15,
+        "index": 2
+      },
+      "lowResolution": true,
+      "cardTag": "GENERADOR PORTÁTIL",
+      "highlights": [
+        [
+          "2,3",
+          "kW indicados en tabla"
+        ],
+        [
+          "iP / P",
+          "gama del fabricante"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-p3000",
+      "brand": "ATLAS COPCO",
+      "model": "P3000",
+      "sourceModel": "P3000",
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Grupo electrógeno",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Generador de la gama iP/P incluido en la tabla de fuentes de alimentación sugeridas. El documento indica 2,3 kW para P3000.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=15",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 15 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        15
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen de la tabla, asociada a P3000. Resolución original reducida.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Esta página no especifica motor, combustible, tensión, frecuencia, autonomía, dimensiones ni peso del generador. No se completan con datos de otros modelos.",
+        "Las fotografías de la tabla se comparten entre varias columnas; no acreditan la configuración de una unidad. Las cantidades de torres son una referencia de dimensionamiento del fabricante, no una garantía de compatibilidad."
+      ],
+      "groups": [
+        {
+          "title": "Información disponible en el documento",
+          "page": 15,
+          "rows": [
+            [
+              "Modelo",
+              "P3000",
+              ""
+            ],
+            [
+              "Potencia indicada (sin clasificación PRP en esta tabla)",
+              "2,3",
+              "kW"
+            ],
+            [
+              "Gama",
+              "Generadores iP y P",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Referencia de dimensionamiento de la tabla",
+          "page": 15,
+          "rows": [
+            [
+              "HiLight PE 3: cantidad sugerida",
+              "4",
+              ""
+            ],
+            [
+              "HiLight V3+: cantidad sugerida",
+              "1",
+              ""
+            ],
+            [
+              "HiLight E3+: cantidad sugerida",
+              "3",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-p3000.webp",
+      "imageWidth": 60,
+      "imageHeight": 60,
+      "imageSource": {
+        "page": 15,
+        "index": 4
+      },
+      "lowResolution": true,
+      "cardTag": "GENERADOR PORTÁTIL",
+      "highlights": [
+        [
+          "2,3",
+          "kW indicados en tabla"
+        ],
+        [
+          "iP / P",
+          "gama del fabricante"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-p3500i",
+      "brand": "ATLAS COPCO",
+      "model": "P3500i",
+      "sourceModel": "P3500i",
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Grupo electrógeno",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Generador de la gama iP/P incluido en la tabla de fuentes de alimentación sugeridas. El documento indica 3 kW para P3500i.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=15",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 15 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        15
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen de la tabla, asociada a P3500i y P6000i. Resolución original reducida.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Esta página no especifica motor, combustible, tensión, frecuencia, autonomía, dimensiones ni peso del generador. No se completan con datos de otros modelos.",
+        "Las fotografías de la tabla se comparten entre varias columnas; no acreditan la configuración de una unidad. Las cantidades de torres son una referencia de dimensionamiento del fabricante, no una garantía de compatibilidad."
+      ],
+      "groups": [
+        {
+          "title": "Información disponible en el documento",
+          "page": 15,
+          "rows": [
+            [
+              "Modelo",
+              "P3500i",
+              ""
+            ],
+            [
+              "Potencia indicada (sin clasificación PRP en esta tabla)",
+              "3",
+              "kW"
+            ],
+            [
+              "Gama",
+              "Generadores iP y P",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Referencia de dimensionamiento de la tabla",
+          "page": 15,
+          "rows": [
+            [
+              "HiLight PE 3: cantidad sugerida",
+              "6",
+              ""
+            ],
+            [
+              "HiLight V3+: cantidad sugerida",
+              "1",
+              ""
+            ],
+            [
+              "HiLight E3+: cantidad sugerida",
+              "4",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-p3500i.webp",
+      "imageWidth": 64,
+      "imageHeight": 49,
+      "imageSource": {
+        "page": 15,
+        "index": 3
+      },
+      "lowResolution": true,
+      "cardTag": "GENERADOR PORTÁTIL",
+      "highlights": [
+        [
+          "3",
+          "kW indicados en tabla"
+        ],
+        [
+          "iP / P",
+          "gama del fabricante"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-p6000i",
+      "brand": "ATLAS COPCO",
+      "model": "P6000i",
+      "sourceModel": "P6000i",
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Grupo electrógeno",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Generador de la gama iP/P incluido en la tabla de fuentes de alimentación sugeridas. El documento indica 6 kW para P6000i.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=15",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 15 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        15
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen de la tabla, asociada a P3500i y P6000i. Resolución original reducida.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Esta página no especifica motor, combustible, tensión, frecuencia, autonomía, dimensiones ni peso del generador. No se completan con datos de otros modelos.",
+        "Las fotografías de la tabla se comparten entre varias columnas; no acreditan la configuración de una unidad. Las cantidades de torres son una referencia de dimensionamiento del fabricante, no una garantía de compatibilidad."
+      ],
+      "groups": [
+        {
+          "title": "Información disponible en el documento",
+          "page": 15,
+          "rows": [
+            [
+              "Modelo",
+              "P6000i",
+              ""
+            ],
+            [
+              "Potencia indicada (sin clasificación PRP en esta tabla)",
+              "6",
+              "kW"
+            ],
+            [
+              "Gama",
+              "Generadores iP y P",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Referencia de dimensionamiento de la tabla",
+          "page": 15,
+          "rows": [
+            [
+              "HiLight PE 3: cantidad sugerida",
+              "12",
+              ""
+            ],
+            [
+              "HiLight E3+: cantidad sugerida",
+              "9",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-p6000i.webp",
+      "imageWidth": 64,
+      "imageHeight": 49,
+      "imageSource": {
+        "page": 15,
+        "index": 3
+      },
+      "lowResolution": true,
+      "cardTag": "GENERADOR PORTÁTIL",
+      "highlights": [
+        [
+          "6",
+          "kW indicados en tabla"
+        ],
+        [
+          "iP / P",
+          "gama del fabricante"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-p6500",
+      "brand": "ATLAS COPCO",
+      "model": "P6500",
+      "sourceModel": "P6500",
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Grupo electrógeno",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Generador de la gama iP/P incluido en la tabla de fuentes de alimentación sugeridas. El documento indica 5 kW para P6500.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=15",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 15 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        15
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen de la tabla, asociada a P6500 y P8000. Resolución original reducida.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Esta página no especifica motor, combustible, tensión, frecuencia, autonomía, dimensiones ni peso del generador. No se completan con datos de otros modelos.",
+        "Las fotografías de la tabla se comparten entre varias columnas; no acreditan la configuración de una unidad. Las cantidades de torres son una referencia de dimensionamiento del fabricante, no una garantía de compatibilidad."
+      ],
+      "groups": [
+        {
+          "title": "Información disponible en el documento",
+          "page": 15,
+          "rows": [
+            [
+              "Modelo",
+              "P6500",
+              ""
+            ],
+            [
+              "Potencia indicada (sin clasificación PRP en esta tabla)",
+              "5",
+              "kW"
+            ],
+            [
+              "Gama",
+              "Generadores iP y P",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Referencia de dimensionamiento de la tabla",
+          "page": 15,
+          "rows": [
+            [
+              "HiLight PE 3: cantidad sugerida",
+              "10",
+              ""
+            ],
+            [
+              "HiLight E3+: cantidad sugerida",
+              "7",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-p6500.webp",
+      "imageWidth": 77,
+      "imageHeight": 66,
+      "imageSource": {
+        "page": 15,
+        "index": 5
+      },
+      "lowResolution": true,
+      "cardTag": "GENERADOR PORTÁTIL",
+      "highlights": [
+        [
+          "5",
+          "kW indicados en tabla"
+        ],
+        [
+          "iP / P",
+          "gama del fabricante"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-p8000",
+      "brand": "ATLAS COPCO",
+      "model": "P8000",
+      "sourceModel": "P8000",
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Grupo electrógeno",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Generador de la gama iP/P incluido en la tabla de fuentes de alimentación sugeridas. El documento indica 6 kW para P8000.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=15",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 15 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        15
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen de la tabla, asociada a P6500 y P8000. Resolución original reducida.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Esta página no especifica motor, combustible, tensión, frecuencia, autonomía, dimensiones ni peso del generador. No se completan con datos de otros modelos.",
+        "Las fotografías de la tabla se comparten entre varias columnas; no acreditan la configuración de una unidad. Las cantidades de torres son una referencia de dimensionamiento del fabricante, no una garantía de compatibilidad."
+      ],
+      "groups": [
+        {
+          "title": "Información disponible en el documento",
+          "page": 15,
+          "rows": [
+            [
+              "Modelo",
+              "P8000",
+              ""
+            ],
+            [
+              "Potencia indicada (sin clasificación PRP en esta tabla)",
+              "6",
+              "kW"
+            ],
+            [
+              "Gama",
+              "Generadores iP y P",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Referencia de dimensionamiento de la tabla",
+          "page": 15,
+          "rows": [
+            [
+              "HiLight PE 3: cantidad sugerida",
+              "12",
+              ""
+            ],
+            [
+              "HiLight E3+: cantidad sugerida",
+              "9",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-p8000.webp",
+      "imageWidth": 77,
+      "imageHeight": 66,
+      "imageSource": {
+        "page": 15,
+        "index": 5
+      },
+      "lowResolution": true,
+      "cardTag": "GENERADOR PORTÁTIL",
+      "highlights": [
+        [
+          "6",
+          "kW indicados en tabla"
+        ],
+        [
+          "iP / P",
+          "gama del fabricante"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-zbp2000",
+      "brand": "ATLAS COPCO",
+      "model": "ZBP2000",
+      "sourceModel": "ZBP2000",
+      "category": "generacion-de-energia",
+      "type": "Sistemas de almacenamiento de energía",
+      "typeLabel": "Sistema de almacenamiento de energía",
+      "kind": "model",
+      "confirmed": false,
+      "description": "Sistema de almacenamiento de energía citado como fuente de alimentación para las torres HiLight. La tabla del fabricante indica 2 kWh; no se expresa como potencia en kW.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=14",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 14, 15 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        14,
+        15
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Fotografía referencial del catálogo del fabricante.",
+      "notes": [
+        "Modelo del catálogo del fabricante. Disponibilidad en MAQ Lavnor por confirmar.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "La fuente también escribe ZBP 2000 con espacio. No aporta química de batería, tiempos de carga, peso ni dimensiones de esta unidad. Los tiempos de la tabla corresponden a las cargas indicadas."
+      ],
+      "groups": [
+        {
+          "title": "Datos de la tabla de alimentación",
+          "page": 15,
+          "rows": [
+            [
+              "Modelo",
+              "ZBP2000",
+              ""
+            ],
+            [
+              "Energía indicada",
+              "2",
+              "kWh"
+            ],
+            [
+              "Alimentación HiLight PE 3",
+              "1 x 4 h.",
+              ""
+            ],
+            [
+              "Alimentación HiLight V3+",
+              "1 x 4 h.",
+              ""
+            ],
+            [
+              "Alimentación HiLight E3+",
+              "1 x 3 h.",
+              ""
+            ]
+          ]
+        },
+        {
+          "title": "Aplicación descrita",
+          "page": 14,
+          "rows": [
+            [
+              "Uso con HiLight PS 3",
+              "Fuente de alimentación del sistema",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-zbp2000.webp",
+      "imageWidth": 61,
+      "imageHeight": 41,
+      "imageSource": {
+        "page": 15,
+        "index": 6
+      },
+      "lowResolution": true,
+      "cardTag": "ALMACENAMIENTO DE ENERGÍA",
+      "highlights": [
+        [
+          "2",
+          "kWh indicados"
+        ],
+        [
+          "Batería",
+          "fuente de alimentación"
+        ]
+      ]
+    }
+  ],
+  "productLines": [
+    {
+      "id": "atlas-copco-linea-almacenamiento-extra-pequeno",
+      "brand": "ATLAS COPCO",
+      "model": "Almacenamiento extra pequeño",
+      "sourceModel": null,
+      "category": "generacion-de-energia",
+      "type": "Sistemas de almacenamiento de energía",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: 2-10 kVA. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar.",
+        "El cuadro de almacenamiento expresa los rangos en kVA. Se conserva esa unidad; no se convierte ni se interpreta como capacidad en kWh."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Almacenamiento extra pequeño",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "2-10",
+              "kVA"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-almacenamiento-extra-pequeno.webp",
+      "imageWidth": 70,
+      "imageHeight": 54,
+      "imageSource": {
+        "page": 20,
+        "index": 4
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "2-10",
+          "kVA · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-almacenamiento-pequeno",
+      "brand": "ATLAS COPCO",
+      "model": "Almacenamiento pequeño",
+      "sourceModel": null,
+      "category": "generacion-de-energia",
+      "type": "Sistemas de almacenamiento de energía",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: 15-150 kVA. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar.",
+        "El cuadro de almacenamiento expresa los rangos en kVA. Se conserva esa unidad; no se convierte ni se interpreta como capacidad en kWh."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Almacenamiento pequeño",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "15-150",
+              "kVA"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-almacenamiento-pequeno.webp",
+      "imageWidth": 87,
+      "imageHeight": 90,
+      "imageSource": {
+        "page": 20,
+        "index": 5
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "15-150",
+          "kVA · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-almacenamiento-mediano",
+      "brand": "ATLAS COPCO",
+      "model": "Almacenamiento mediano",
+      "sourceModel": null,
+      "category": "generacion-de-energia",
+      "type": "Sistemas de almacenamiento de energía",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: 200-500 kVA. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar.",
+        "El cuadro de almacenamiento expresa los rangos en kVA. Se conserva esa unidad; no se convierte ni se interpreta como capacidad en kWh."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Almacenamiento mediano",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "200-500",
+              "kVA"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-almacenamiento-mediano.webp",
+      "imageWidth": 109,
+      "imageHeight": 107,
+      "imageSource": {
+        "page": 20,
+        "index": 7
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "200-500",
+          "kVA · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-cargador-rapido",
+      "brand": "ATLAS COPCO",
+      "model": "Cargador rápido",
+      "sourceModel": null,
+      "category": "generacion-de-energia",
+      "type": "Cargadores rápidos",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: 160 kW. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Cargador rápido",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "160",
+              "kW"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-cargador-rapido.webp",
+      "imageWidth": 91,
+      "imageHeight": 91,
+      "imageSource": {
+        "page": 20,
+        "index": 8
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "160",
+          "kW · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-generadores-transportables",
+      "brand": "ATLAS COPCO",
+      "model": "Generadores transportables",
+      "sourceModel": null,
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: 1,6-12 kVA. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Generadores transportables",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "1,6-12",
+              "kVA"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-generadores-transportables.webp",
+      "imageWidth": 81,
+      "imageHeight": 71,
+      "imageSource": {
+        "page": 20,
+        "index": 10
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "1,6-12",
+          "kVA · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-generadores-especializados",
+      "brand": "ATLAS COPCO",
+      "model": "Generadores especializados",
+      "sourceModel": null,
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: 9-660* kVA. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar.",
+        "El asterisco de la fuente indica múltiples configuraciones para producir energía para aplicaciones de cualquier tamaño."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Generadores especializados",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "9-660*",
+              "kVA"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-generadores-especializados.webp",
+      "imageWidth": 137,
+      "imageHeight": 77,
+      "imageSource": {
+        "page": 20,
+        "index": 11
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "9-660*",
+          "kVA · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-generadores-versatiles",
+      "brand": "ATLAS COPCO",
+      "model": "Generadores versátiles",
+      "sourceModel": null,
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: 9-1250* kVA. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar.",
+        "El asterisco de la fuente indica múltiples configuraciones para producir energía para aplicaciones de cualquier tamaño."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Generadores versátiles",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "9-1250*",
+              "kVA"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-generadores-versatiles.webp",
+      "imageWidth": 153,
+      "imageHeight": 81,
+      "imageSource": {
+        "page": 20,
+        "index": 12
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "9-1250*",
+          "kVA · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-generadores-gran-potencia",
+      "brand": "ATLAS COPCO",
+      "model": "Generadores de gran potencia",
+      "sourceModel": null,
+      "category": "generacion-de-energia",
+      "type": "Grupos electrógenos",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: 800–1450 kVA. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Generadores de gran potencia",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "800–1450",
+              "kVA"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-generadores-gran-potencia.webp",
+      "imageWidth": 180,
+      "imageHeight": 81,
+      "imageSource": {
+        "page": 20,
+        "index": 9
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "800–1450",
+          "kVA · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-bombas-sumergibles",
+      "brand": "ATLAS COPCO",
+      "model": "Bombas eléctricas sumergibles",
+      "sourceModel": null,
+      "category": "equipos-auxiliares",
+      "type": "Bombas de achique",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: hasta 18 000 l/min. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Bombas eléctricas sumergibles",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "hasta 18 000",
+              "l/min"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-bombas-sumergibles.webp",
+      "imageWidth": 39,
+      "imageHeight": 98,
+      "imageSource": {
+        "page": 20,
+        "index": 0
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "hasta 18 000",
+          "l/min · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-bombas-electricas-autocebantes",
+      "brand": "ATLAS COPCO",
+      "model": "Bombas eléctricas centrífugas autocebantes",
+      "sourceModel": null,
+      "category": "equipos-auxiliares",
+      "type": "Bombas de achique",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: 833–23 300 l/min. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Bombas eléctricas centrífugas autocebantes",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "833–23 300",
+              "l/min"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-bombas-electricas-autocebantes.webp",
+      "imageWidth": 118,
+      "imageHeight": 82,
+      "imageSource": {
+        "page": 20,
+        "index": 1
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "833–23 300",
+          "l/min · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-bombas-centrifugas-autocebantes",
+      "brand": "ATLAS COPCO",
+      "model": "Bombas centrífugas autocebantes",
+      "sourceModel": null,
+      "category": "equipos-auxiliares",
+      "type": "Bombas de achique",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. Rango indicado: 833–23 300 l/min. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Bombas centrífugas autocebantes",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ],
+            [
+              "Rango indicado por el fabricante",
+              "833–23 300",
+              "l/min"
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-bombas-centrifugas-autocebantes.webp",
+      "imageWidth": 135,
+      "imageHeight": 91,
+      "imageSource": {
+        "page": 20,
+        "index": 13
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "833–23 300",
+          "l/min · rango de la línea"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-torres-diesel",
+      "brand": "ATLAS COPCO",
+      "model": "Torres de iluminación diésel",
+      "sourceModel": null,
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación diésel",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Torres de iluminación diésel",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-torres-diesel.webp",
+      "imageWidth": 152,
+      "imageHeight": 120,
+      "imageSource": {
+        "page": 20,
+        "index": 14
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "Por definir",
+          "modelos y capacidades"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-torres-bateria",
+      "brand": "ATLAS COPCO",
+      "model": "Torres de iluminación con batería",
+      "sourceModel": null,
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación con batería",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Torres de iluminación con batería",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-torres-bateria.webp",
+      "imageWidth": 98,
+      "imageHeight": 120,
+      "imageSource": {
+        "page": 20,
+        "index": 3
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "Por definir",
+          "modelos y capacidades"
+        ]
+      ]
+    },
+    {
+      "id": "atlas-copco-linea-torres-electricas",
+      "brand": "ATLAS COPCO",
+      "model": "Torres de iluminación eléctricas",
+      "sourceModel": null,
+      "category": "equipos-auxiliares",
+      "type": "Torres de iluminación eléctricas",
+      "typeLabel": "Línea general · modelos por definir",
+      "kind": "line",
+      "confirmed": false,
+      "description": "Línea de productos Atlas Copco presentada en el cuadro general del fabricante. No se especifican los modelos individuales en ese cuadro.",
+      "document": "assets/documents/atlas-copco-gama-hilight.pdf#page=20",
+      "documentLabel": "Ver documento del fabricante",
+      "documentNote": "Catálogo HiLight · páginas 20 · 2023",
+      "source": "FT_Luminaria_ATLAS COPCO_Hilight V5+.pdf",
+      "sourcePages": [
+        20
+      ],
+      "sourceDate": "2023",
+      "imageCaption": "Imagen general de la línea en página 20; no representa un modelo identificado.",
+      "notes": [
+        "Línea del catálogo del fabricante. No acredita modelos ni disponibilidad en la flota de MAQ Lavnor.",
+        "Datos de la edición 2023. Confirmar la configuración, tarifa, traslado y disponibilidad antes de contratar.",
+        "Marca y clasificación documentadas; modelo, configuración, prestaciones individuales y condiciones comerciales por confirmar."
+      ],
+      "groups": [
+        {
+          "title": "Información del cuadro de productos",
+          "page": 20,
+          "rows": [
+            [
+              "Línea",
+              "Torres de iluminación eléctricas",
+              ""
+            ],
+            [
+              "Modelo individual",
+              "No especificado en este cuadro",
+              ""
+            ]
+          ]
+        }
+      ],
+      "image": "assets/images/equipos/atlas-copco-linea-torres-electricas.webp",
+      "imageWidth": 91,
+      "imageHeight": 128,
+      "imageSource": {
+        "page": 20,
+        "index": 2
+      },
+      "lowResolution": true,
+      "cardTag": "LÍNEA DEL FABRICANTE",
+      "highlights": [
+        [
+          "Por definir",
+          "modelos y capacidades"
+        ]
+      ]
+    }
+  ]
+}
