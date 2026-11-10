@@ -1,7 +1,7 @@
 <section class="page-intro"><div class="container">
   <nav class="breadcrumbs" aria-label="Ruta de navegación"><a href="index.html">Inicio</a><span aria-hidden="true">/</span><span aria-current="page">Equipos</span></nav>
   <p class="eyebrow">ELIGE POR TIPO DE TRABAJO</p><h1>CATÁLOGO <span>DE EQUIPOS.</span></h1>
-  <p>Explora los {{modelCount}} modelos documentados y las {{lineCount}} líneas de productos del fabricante.</p>
+  <p>{{modelCount}} equipos para tu operación. Revisa las fotografías, compara sus características y prepara tu cotización.</p>
 </div></section>
 <section class="section catalog-section"><div class="container catalog-layout">
   <aside class="catalog-sidebar" aria-label="Filtros del catálogo">
@@ -9,16 +9,14 @@
     <p class="sidebar-note">¿No encuentras lo que buscas?<br><a href="cotizacion.html">Prepara una consulta ↗</a></p>
   </aside>
   <div class="catalog-content">
-    <p class="catalog-explainer"><strong>Flota confirmada:</strong> LSW-3Y y HiLight V5+. Los demás modelos y líneas pertenecen al catálogo del fabricante y requieren confirmar disponibilidad.</p>
+    <p class="catalog-explainer"><strong>Elige con información:</strong> consulta la ficha del equipo y confirma disponibilidad, configuración y condiciones para tu proyecto.</p>
     <div class="catalog-toolbar">
       <label class="search-field"><span>Buscar equipo</span><input id="search" type="search" placeholder="Marca, modelo o tipo" autocomplete="off"></label>
       <label><span>Tipo de equipo</span><select id="equipment-type"><option value="">Todos los tipos</option>{{types}}</select></label>
-      <label><span>Mostrar</span><select id="catalog-source"><option value="all">Todo el catálogo</option><option value="confirmed">Flota confirmada</option><option value="manufacturer">Modelos del fabricante</option><option value="lines">Líneas del fabricante</option></select></label>
     </div>
-    <div class="results-toolbar"><p id="results-count" role="status" aria-live="polite">{{modelCount}} modelos · {{lineCount}} líneas generales</p><button id="clear-filters" type="button">Limpiar filtros <span aria-hidden="true">↺</span></button></div>
+    <div class="results-toolbar"><p id="results-count" role="status" aria-live="polite">{{modelCount}} equipos con ficha técnica</p><button id="clear-filters" type="button">Limpiar filtros <span aria-hidden="true">↺</span></button></div>
     <noscript><p class="notice">Activa JavaScript para usar los filtros. A continuación se muestra el catálogo completo.</p></noscript>
     <div class="catalog-grid">{{cards}}</div>
-    <div class="catalog-pagination"><button id="load-more" class="button button-dark" type="button" hidden>Mostrar más productos ↓</button></div>
     <div class="catalog-grid pending-grid">{{pending}}</div>
     <div id="no-results" class="empty-state" hidden><span aria-hidden="true">↗</span><h2>No encontramos coincidencias.</h2><p>Prueba con otro nombre o limpia los filtros.</p><a href="cotizacion.html">Consultar otro requerimiento →</a></div>
   </div>

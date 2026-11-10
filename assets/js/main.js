@@ -24,4 +24,28 @@
     if (!navigation?.contains(event.target) && !button?.contains(event.target)) closeMenu();
   });
   matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
+
+  // El contenido queda visible si JavaScript o IntersectionObserver no están disponibles.
+  const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  if (!motion.matches && 'IntersectionObserver' in window) {
+    const targets = document.querySelectorAll('.section-heading,.about-presentation,.purpose-grid article,.reasons-grid article,.values-layout,.logistics-copy,.peru-visual,.delivery-gallery figure,.company-preview-copy');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    targets.forEach(target => {
+      target.classList.add('reveal');
+      observer.observe(target);
+    });
+    motion.addEventListener('change', () => {
+      if (motion.matches) {
+        targets.forEach(target => target.classList.add('is-revealed'));
+        observer.disconnect();
+      }
+    });
+  }
 })();

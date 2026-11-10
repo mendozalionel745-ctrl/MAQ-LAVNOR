@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote
 
 ROOT = Path(__file__).resolve().parents[1]
-PAGES = [ROOT / 'index.html', ROOT / 'catalogo.html', ROOT / 'cotizacion.html', *sorted((ROOT / 'equipos').glob('*.html'))]
+PAGES = [ROOT / 'index.html', ROOT / 'catalogo.html', ROOT / 'nosotros.html', ROOT / 'cotizacion.html', *sorted((ROOT / 'equipos').glob('*.html'))]
 
 
 class Page(HTMLParser):

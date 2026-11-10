@@ -15,18 +15,18 @@ Visitar http://127.0.0.1:4174. No se ha publicado en un hosting.
 ## Estructura y edición
 
 - `index.html`: inicio.
+- `nosotros.html`: presentación, misión, visión, valores y galería de entregas; propuesta editorial descrita en `docs/NOSOTROS.md`.
 - `catalogo.html`: catálogo y filtros.
-- `equipos/`: 36 páginas individuales: 22 modelos identificados y 14 líneas generales del fabricante. Dos modelos tienen flota confirmada.
+- `equipos/`: nueve fichas, limitadas a la selección aprobada el 10/11/2026.
 - `cotizacion.html`: consulta local con modelo o tipo preseleccionado.
 - `assets/css/styles.css`: diseño y adaptación móvil.
 - `assets/js/`: navegación, filtros, consulta y configuración comercial.
-- `assets/images/`: fotografías extraídas de los PDF, iconos y logo original.
-- `assets/documents/`: ficha PRAMAC de tres páginas técnicas y catálogo Atlas original.
+- `assets/images/`: fotografías de los PDF, imágenes adjuntas del cliente, esquemas de dimensiones, iconos y logo original.
+- `assets/documents/`: documentos técnicos suministrados. El folleto Atlas de iluminación se referencia únicamente para V5+.
 - `data/catalogo.json`: marcas, modelos, categorías, especificaciones, unidades y procedencia por página.
-- `data/fuentes-atlas-tablas.json`: extracción por celdas de las tablas originales de páginas 18-19.
 - `templates/`: HTML fuente de las páginas y estructura compartida.
 - `scripts/build_site.py`: genera las páginas HTML desde datos y plantillas; requiere solo Python estándar.
-- `scripts/import_atlas_catalogue.py`: reimportación reproducible del documento Atlas con pypdf, pdfplumber y Pillow; reconstruye los registros de ese PDF y extrae sus imágenes.
+- `scripts/import_fleet.py`: importa exclusivamente la selección de nueve equipos desde los documentos e imágenes originales en Downloads. Requiere pypdf y Pillow solo para reimportar; no son dependencias de la web. Se retiró el importador de la gama completa para evitar que se reincorporen equipos excluidos.
 - `docs/REVISION-INICIAL.md`: diagnóstico, fuentes, ambigüedades y pendientes comerciales.
 - `docs/qa/`: capturas y resultados de la verificación.
 
@@ -46,13 +46,13 @@ Para activar canales, rellenar `assets/js/config.js` con datos confirmados: What
 
 ## Fuentes
 
-Datos técnicos provenientes únicamente de los PDF suministrados, sin conversiones de unidades. Tras la ampliación solicitada, se incorporó toda la gama documentada: 13 modelos HiLight, 7 generadores, ZBP2000 y PRAMAC LSW-3Y. También se muestran las 14 líneas generales de la página «Catálogo de productos», identificadas como líneas sin modelos individuales, con sus rangos originales.
+El 10/11/2026 el usuario corrigió el alcance y solicitó retirar la ampliación anterior. La selección vigente es: PRAMAC LSW-3Y, Atlas Copco HiLight V5+, KAESER M100 y M235, Atlas Copco TEX P60S, HYDROKHAN UG3300, CAT 246D, Bobcat S650 y Dynapac DTR75. CAT 246D fue confirmado expresamente: el nombre del archivo decía 243D, pero sus páginas describen 246D.
 
-El usuario confirmó LSW-3Y y HiLight V5+ en flota. Los demás modelos se presentan como catálogo del fabricante con disponibilidad por confirmar. Las fichas de movimiento de tierras, aire, complementos y unidades livianas siguen pendientes: estos PDF no identifican sus modelos.
+Los 34 registros adicionales de la gama anterior se retiraron del catálogo, las fichas, las imágenes y los selectores de consulta. No se incorporan otros modelos, herramientas o implementos por aparecer en un folleto.
 
-El catálogo incluye filtros por familia, tipo y procedencia (todo, flota confirmada, modelos del fabricante y líneas). Muestra inicialmente 12 productos y permite cargar los restantes. Sin JavaScript se muestran todos. El estado comercial se conserva al preparar la consulta.
+El catálogo muestra los nueve equipos sin paginación y permite filtrar por categoría y tipo, o buscar por marca/modelo. Se conservan las seis categorías originales; generación de energía y unidades livianas siguen sin modelos documentados. DTR75 se identifica como rodillo dúplex, según su ficha. Martillos fragmentadores permanece como tipo sin modelo agregado.
 
-La cobertura de la fuente y las discrepancias identificadas se documentan en `docs/CATALOGO-COMPLETO.md`. Algunas fotos de generadores se comparten entre columnas del documento y tienen baja resolución: las fichas lo indican.
+Las características básicas, opciones y ambigüedades se separan en cada ficha. Se conservaron las unidades originales sin calcular equivalencias o autonomías no documentadas. Los esquemas de Bobcat y Dynapac permiten relacionar las cotas con sus tablas. La selección y los datos por revisar se documentan en `docs/ALCANCE-CATALOGO.md`.
 
 El PDF PRAMAC suministrado incluía una primera página ajena con firmas y datos personales. Se excluyó de la descarga pública. Se conservaron únicamente las páginas técnicas 2-4, sin modificar su contenido. Las fotografías son referenciales del fabricante; confirmar la configuración de las unidades antes de ofertar.
 

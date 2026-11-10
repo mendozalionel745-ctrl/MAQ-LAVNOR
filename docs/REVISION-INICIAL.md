@@ -1,6 +1,6 @@
 # Revisión del proyecto y fuentes
 
-> Registro histórico de la primera revisión. La selección inicial de solo dos modelos fue ampliada a petición del usuario: el estado actual contiene 22 modelos documentados y 14 líneas generales, todos con imagen y página propia. Véase CATALOGO-COMPLETO.md. La disponibilidad de los modelos adicionales no se da por confirmada.
+> Registro histórico de la primera revisión. El alcance vigente fue corregido el 10/11/2026: se conservan las dos torres originales y se añaden únicamente los siete equipos nuevos aprobados. La ampliación anterior fue retirada. Véase ALCANCE-CATALOGO.md para la selección actual de nueve equipos y sus pendientes.
 
 ## Estado inicial, antes de modificar
 
